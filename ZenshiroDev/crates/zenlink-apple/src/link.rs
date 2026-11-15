@@ -235,7 +235,17 @@ impl Link {
             return Err(DEV_MODE_OFF.into());
         }
         let dirs = ddi::search_dirs(kind);
-        let dir = ddi::find(kind, &dirs).ok_or("Developer Disk Image files not found")?;
+        let dir = match ddi::find(kind, &dirs) {
+            Some(d) => d,
+            None => {
+                progress("Downloading Developer Disk Image");
+                let dest = ddi::cache_dir(kind)
+                    .ok_or("Developer Disk Image files not found (no LOCALAPPDATA)")?;
+                tokio::task::spawn_blocking(move || ddi::download(kind, &dest))
+                    .await
+                    .map_err(|e| format!("DDI download task: {e}"))??
+            }
+        };
         progress("Preparing the device (first time)");
         let f = ddi::read(kind, &dir).map_err(|e| format!("read DDI: {e}"))?;
         match kind {
