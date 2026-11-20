@@ -1,6 +1,6 @@
 //! UI languages as gettext `.po` files. English texts are the keys (`msgid`); a language file
 //! gives their translations (`msgstr`). Built in: English, `id.po` (Bahasa Indonesia) and
-//! `zh_CN.po` (Simplified Chinese), from `ZenshiroDev/resources/lang`. More languages, or fixes to a built-in one, are `<code>.po`
+//! `zh_CN.po` (Simplified Chinese), `ja.po` (Japanese), from `ZenshiroDev/resources/lang`. More languages, or fixes to a built-in one, are `<code>.po`
 //! files in a `lang` folder next to ZenLink.exe or in `%LOCALAPPDATA%\ZenLink-Next\lang`;
 //! ZenLink lists them in Settings without a rebuild. `ZenshiroDev/resources/lang/README.md`
 //! explains how to translate.
@@ -17,6 +17,10 @@ const BUILT_IN: &[(&str, &str)] = &[
     (
         "zh_CN",
         include_str!("../../../ZenshiroDev/resources/lang/zh_CN.po"),
+    ),
+    (
+        "ja",
+        include_str!("../../../ZenshiroDev/resources/lang/ja.po"),
     ),
 ];
 
@@ -264,6 +268,13 @@ mod tests {
         let (m, name) = parse(BUILT_IN[1].1);
         assert_eq!(name.as_deref(), Some("简体中文"));
         assert_eq!(m.get("Start").map(String::as_str), Some("开始"));
+    }
+
+    #[test]
+    fn built_in_japanese_loads() {
+        let (m, name) = parse(BUILT_IN[2].1);
+        assert_eq!(name.as_deref(), Some("日本語"));
+        assert_eq!(m.get("Start").map(String::as_str), Some("開始"));
     }
 
     #[test]

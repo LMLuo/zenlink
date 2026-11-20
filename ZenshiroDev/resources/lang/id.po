@@ -1537,7 +1537,7 @@ msgstr "Pulihkan"
 msgid "Maximise"
 msgstr "Perbesar"
 
-#: apps/desktop/src/apple.rs:985
+#: apps/desktop/src/apple.rs:992
 msgid "Developer Mode is off. On the iPhone/iPad open Settings › Privacy & Security › Developer Mode, turn it on, restart the device, tap Turn On, then try again."
 msgstr "Mode Pengembang mati. Di iPhone/iPad buka Pengaturan › Privasi & Keamanan › Mode Pengembang, nyalakan, mulai ulang perangkat, ketuk Nyalakan, lalu coba lagi."
 

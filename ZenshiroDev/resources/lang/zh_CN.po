@@ -1537,7 +1537,7 @@ msgstr "还原"
 msgid "Maximise"
 msgstr "最大化"
 
-#: apps/desktop/src/apple.rs:985
+#: apps/desktop/src/apple.rs:992
 msgid "Developer Mode is off. On the iPhone/iPad open Settings › Privacy & Security › Developer Mode, turn it on, restart the device, tap Turn On, then try again."
 msgstr "开发者模式未打开。请在 iPhone/iPad 上打开 设置 › 隐私与安全性 › 开发者模式，开启后重启设备并点按“打开”，然后重试。"
 

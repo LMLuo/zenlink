@@ -1,0 +1,2338 @@
+# Japanese for ZenLink. See README.md in this folder.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ja\n"
+"Language-Name: 日本語\n"
+
+#: apps/desktop/ui/app.slint:154
+msgid "Mirroring"
+msgstr "ミラーリング"
+
+#: apps/desktop/ui/app.slint:154
+msgid "Waiting for the device"
+msgstr "デバイスを待っています"
+
+#: apps/desktop/ui/app.slint:154
+msgid "Connecting…"
+msgstr "接続中…"
+
+#: apps/desktop/ui/app.slint:154
+msgid "Action needed"
+msgstr "操作が必要です"
+
+#: apps/desktop/ui/app.slint:154
+msgid "Ready"
+msgstr "準備完了"
+
+#: apps/desktop/ui/app.slint:168
+msgid "No device"
+msgstr "デバイスなし"
+
+#: apps/desktop/ui/app.slint:178
+msgid "Restart"
+msgstr "再起動"
+
+#: apps/desktop/ui/app.slint:179
+msgid "Restart the connection"
+msgstr "接続をやり直す"
+
+#: apps/desktop/ui/app.slint:186
+msgid "Start"
+msgstr "開始"
+
+#: apps/desktop/ui/app.slint:187
+msgid "Start mirroring"
+msgstr "ミラーリングを開始"
+
+#: apps/desktop/ui/app.slint:194
+msgid "Stop mirroring"
+msgstr "ミラーリングを停止"
+
+#: apps/desktop/ui/app.slint:200
+msgid "Sound off — click to turn on"
+msgstr "サウンド オフ — クリックでオン"
+
+#: apps/desktop/ui/app.slint:200
+msgid "Sound on PC — click to mute"
+msgstr "PCでサウンド再生中 — クリックでミュート"
+
+#: apps/desktop/ui/app.slint:208
+msgid "Rotate view"
+msgstr "表示を回転"
+
+#: apps/desktop/ui/app.slint:213
+msgid "View mode: Auto-Fit / Edge-to-Edge / Stretch"
+msgstr "表示モード: 自動フィット / 端まで表示 / ストレッチ"
+
+#: apps/desktop/ui/app.slint:221
+msgid "Exit full screen"
+msgstr "全画面を終了"
+
+#: apps/desktop/ui/app.slint:221
+msgid "Full screen"
+msgstr "全画面"
+
+#: apps/desktop/ui/app.slint:228
+msgid "Device menu"
+msgstr "デバイスメニュー"
+
+#: apps/desktop/ui/app.slint:235
+msgid "Settings"
+msgstr "設定"
+
+#: apps/desktop/ui/app.slint:274
+msgid "Swipe from the right edge (forward)"
+msgstr "右端からスワイプ（進む）"
+
+#: apps/desktop/ui/app.slint:274
+msgid "Swipe left"
+msgstr "左へスワイプ"
+
+#: apps/desktop/ui/app.slint:275
+msgid "Back (right click works too)"
+msgstr "戻る（右クリックでも可）"
+
+#: apps/desktop/ui/app.slint:275
+msgid "Back"
+msgstr "戻る"
+
+#: apps/desktop/ui/app.slint:276
+msgid "Home screen"
+msgstr "ホーム画面"
+
+#: apps/desktop/ui/app.slint:277
+msgid "Recent apps"
+msgstr "最近のアプリ"
+
+#: apps/desktop/ui/app.slint:278
+msgid "Swipe from the left edge (back, also Alt+←)"
+msgstr "左端からスワイプ（戻る、Alt+← でも可）"
+
+#: apps/desktop/ui/app.slint:278
+msgid "Swipe right"
+msgstr "右へスワイプ"
+
+#: apps/desktop/ui/app.slint:280
+msgid "Control Center"
+msgstr "コントロールセンター"
+
+#: apps/desktop/ui/app.slint:281
+msgid "Phone apps (open on the phone or in a new window)"
+msgstr "スマホのアプリ（スマホ上または新しいウィンドウで開く）"
+
+#: apps/desktop/ui/app.slint:281
+msgid "Apps"
+msgstr "アプリ"
+
+#: apps/desktop/ui/app.slint:282
+msgid "Quick Settings"
+msgstr "クイック設定"
+
+#: apps/desktop/ui/app.slint:283
+msgid "Notifications"
+msgstr "通知"
+
+#: apps/desktop/ui/app.slint:283
+msgid "Alerts"
+msgstr "アラート"
+
+#: apps/desktop/ui/app.slint:284
+msgid "Phone volume down"
+msgstr "スマホの音量を下げる"
+
+#: apps/desktop/ui/app.slint:285
+msgid "Phone volume up"
+msgstr "スマホの音量を上げる"
+
+#: apps/desktop/ui/app.slint:286
+msgid "Power button (lock / wake the screen)"
+msgstr "電源ボタン（ロック / 画面を起こす）"
+
+#: apps/desktop/ui/app.slint:286
+msgid "Lock screen"
+msgstr "画面をロック"
+
+#: apps/desktop/ui/app.slint:286
+msgid "Lock"
+msgstr "ロック"
+
+#: apps/desktop/ui/app.slint:417
+msgid "Connect the iPhone/iPad and the PC to the same Wi-Fi."
+msgstr "iPhone/iPad と PC を同じ Wi-Fi に接続してください。"
+
+#: apps/desktop/ui/app.slint:418
+msgid "On the iPhone/iPad, open Control Center: swipe down from the top-right corner of the screen."
+msgstr "iPhone/iPad でコントロールセンターを開きます: 画面の右上隅から下へスワイプしてください。"
+
+#: apps/desktop/ui/app.slint:419
+msgid "Tap Screen Mirroring (the two stacked rectangles)."
+msgstr "画面ミラーリング（四角が2つ重なったアイコン）をタップしてください。"
+
+#: apps/desktop/ui/app.slint:420
+msgid "Pick ZenLinkStudio. The screen shows up here."
+msgstr "ZenLinkStudio を選んでください。画面がここに表示されます。"
+
+#: apps/desktop/ui/app.slint:421
+msgid "Press Start below."
+msgstr "下の「開始」を押してください。"
+
+#: apps/desktop/ui/app.slint:427
+msgid "First time only: plug in the USB cable, then press Set up Wi-Fi in Settings › Connection & driver."
+msgstr "初回のみ: USB ケーブルを接続してから、設定 › 接続とドライバ で「Wi-Fi をセットアップ」を押してください。"
+
+#: apps/desktop/ui/app.slint:428
+msgid "Unlock the iPhone/iPad, then press Start."
+msgstr "iPhone/iPad のロックを解除してから「開始」を押してください。"
+
+#: apps/desktop/ui/app.slint:429
+msgid "Plug the iPhone/iPad into the PC with a USB cable."
+msgstr "iPhone/iPad を USB ケーブルで PC に接続してください。"
+
+#: apps/desktop/ui/app.slint:430
+msgid "Unlock its screen."
+msgstr "画面のロックを解除してください。"
+
+#: apps/desktop/ui/app.slint:431
+msgid "If it asks \"Trust this computer?\", tap Trust and enter the passcode."
+msgstr "「このコンピュータを信頼しますか？」と表示されたら「信頼」をタップし、パスコードを入力してください。"
+
+#: apps/desktop/ui/app.slint:432
+msgid "First time only: turn on Developer Mode in Settings › Privacy & Security › Developer Mode, restart the device and tap Turn On. If the switch is missing, press Start once: ZenLink makes it appear."
+msgstr ""
+
+#: apps/desktop/ui/app.slint:437
+msgid "Needs Trust"
+msgstr "「信頼」が必要です"
+
+#: apps/desktop/ui/app.slint:438
+msgid "Wi-Fi not set up"
+msgstr "Wi-Fi がセットアップされていません"
+
+#: apps/desktop/ui/app.slint:439
+msgid "Choose a mode"
+msgstr "モードを選択"
+
+#: apps/desktop/ui/app.slint:440
+msgid "Needs Apple Devices"
+msgstr ""
+
+#: apps/desktop/ui/app.slint:441
+msgid "Needs a driver"
+msgstr "ドライバが必要です"
+
+#: apps/desktop/ui/app.slint:442
+msgid "Restore the Apple driver"
+msgstr "Apple ドライバを復元"
+
+#: apps/desktop/ui/app.slint:443
+msgid "Install the ZenLink Studio driver"
+msgstr "ZenLink Studio ドライバをインストール"
+
+#: apps/desktop/ui/app.slint:444
+msgid "libusb-win32 is not installed"
+msgstr "libusb-win32 がインストールされていません"
+
+#: apps/desktop/ui/app.slint:445
+msgid "Remove the libusb0 filter first"
+msgstr "先に libusb0 フィルタを削除してください"
+
+#: apps/desktop/ui/app.slint:446
+msgid "Choose a connection mode"
+msgstr "接続モードを選択"
+
+#: apps/desktop/ui/app.slint:447
+msgid "Wi-Fi is not set up yet"
+msgstr "Wi-Fi がまだセットアップされていません"
+
+#: apps/desktop/ui/app.slint:448
+msgid "Install Apple Devices"
+msgstr ""
+
+#: apps/desktop/ui/app.slint:449
+msgid "Unlock it and tap Trust"
+msgstr "ロックを解除して「信頼」をタップ"
+
+#: apps/desktop/ui/app.slint:450
+msgid "This device uses the ZenLink Studio driver, so Apple mode cannot see it. Restore the Apple driver, or switch to ZenLink Studio."
+msgstr "このデバイスは ZenLink Studio ドライバを使用しているため、Apple モードでは認識できません。Apple ドライバを復元するか、ZenLink Studio に切り替えてください。"
+
+#: apps/desktop/ui/app.slint:451
+msgid "ZenLink Studio uses the libusb0 driver on the device. Install it, or switch to Apple Driver mode."
+msgstr "ZenLink Studio はデバイスに libusb0 ドライバを使います。インストールするか、Apple Driver モードに切り替えてください。"
+
+#: apps/desktop/ui/app.slint:452
+msgid "Install the iOS driver of TikTok LIVE Studio or libusb-win32 once, then press Check drivers. Or use Apple Driver mode."
+msgstr "TikTok LIVE Studio の iOS ドライバか libusb-win32 を一度インストールしてから「ドライバを確認」を押してください。または Apple Driver モードを使ってください。"
+
+#: apps/desktop/ui/app.slint:453
+msgid "A libusb0 filter is stacked on the Apple driver. It can crash Windows."
+msgstr "libusb0 フィルタが Apple ドライバの上に重なっています。Windows がクラッシュするおそれがあります。"
+
+#: apps/desktop/ui/app.slint:454
+msgid "Pick Apple Driver or ZenLink Studio to continue."
+msgstr "続けるには Apple Driver か ZenLink Studio を選んでください。"
+
+#: apps/desktop/ui/app.slint:455
+msgid "Plug in the cable once, then press Set up Wi-Fi in Settings. Or choose Wired."
+msgstr "ケーブルを一度接続してから、設定で「Wi-Fi をセットアップ」を押してください。または「有線」を選んでください。"
+
+#: apps/desktop/ui/app.slint:456
+msgid "Windows sees the device, but Apple Mobile Device Service is not running. Install Apple Devices from the Microsoft Store (or iTunes), then plug the cable in again. Or switch to ZenLink Studio."
+msgstr ""
+
+#: apps/desktop/ui/app.slint:457
+msgid "Unlock the device, tap Trust if it asks, then try again."
+msgstr "デバイスのロックを解除し、表示されたら「信頼」をタップして、もう一度お試しください。"
+
+#: apps/desktop/ui/app.slint:459
+msgid "Detect device"
+msgstr "デバイスを検出"
+
+#: apps/desktop/ui/app.slint:459
+msgid "Found on USB through the libusb0 driver"
+msgstr "libusb0 ドライバ経由で USB に見つかりました"
+
+#: apps/desktop/ui/app.slint:460
+msgid "Open the device"
+msgstr "デバイスを開く"
+
+#: apps/desktop/ui/app.slint:460
+msgid "Switching it to its screen-capture mode"
+msgstr "画面キャプチャモードに切り替え中"
+
+#: apps/desktop/ui/app.slint:461
+msgid "Check trust"
+msgstr "信頼を確認"
+
+#: apps/desktop/ui/app.slint:461
+msgid "Keep it unlocked while ZenLink proves this PC is trusted"
+msgstr "ZenLink がこの PC を信頼済みだと証明する間、ロックを解除したままにしてください"
+
+#: apps/desktop/ui/app.slint:462
+msgid "Start stream"
+msgstr "ストリームを開始"
+
+#: apps/desktop/ui/app.slint:462
+msgid "Receiving the screen over ZenLink Studio"
+msgstr "ZenLink Studio で画面を受信中"
+
+#: apps/desktop/ui/app.slint:464
+msgid "Device connected"
+msgstr "デバイスが接続されました"
+
+#: apps/desktop/ui/app.slint:464
+msgid "Your iPhone/iPad chose ZenLinkStudio in Screen Mirroring"
+msgstr "iPhone/iPad の画面ミラーリングで ZenLinkStudio が選ばれました"
+
+#: apps/desktop/ui/app.slint:465
+msgid "Secure connection"
+msgstr "安全な接続"
+
+#: apps/desktop/ui/app.slint:465
+msgid "AirPlay pairing and FairPlay key exchange"
+msgstr "AirPlay のペアリングと FairPlay の鍵交換"
+
+#: apps/desktop/ui/app.slint:466
+msgid "Receive video"
+msgstr "映像を受信"
+
+#: apps/desktop/ui/app.slint:466
+msgid "Decrypting the AirPlay stream"
+msgstr "AirPlay ストリームを復号中"
+
+#: apps/desktop/ui/app.slint:467
+msgid "Receiving the screen over Wi-Fi"
+msgstr "Wi-Fi で画面を受信中"
+
+#: apps/desktop/ui/app.slint:469
+msgid "Found through Apple Mobile Device Service"
+msgstr "Apple Mobile Device Service 経由で見つかりました"
+
+#: apps/desktop/ui/app.slint:470
+msgid "Opening an encrypted Wi-Fi tunnel to the device"
+msgstr "デバイスへの暗号化 Wi-Fi トンネルを開いています"
+
+#: apps/desktop/ui/app.slint:470
+msgid "Opening an encrypted USB tunnel to the device"
+msgstr "デバイスへの暗号化 USB トンネルを開いています"
+
+#: apps/desktop/ui/app.slint:471
+msgid "Prepare the device"
+msgstr "デバイスを準備"
+
+#: apps/desktop/ui/app.slint:471
+msgid "Keep it unlocked. The first time, a small developer image is installed."
+msgstr "ロックを解除したままにしてください。初回は小さな開発者用イメージがインストールされます。"
+
+#: apps/desktop/ui/app.slint:472
+msgid "Receiving the screen in HEVC"
+msgstr "HEVC で画面を受信中"
+
+#: apps/desktop/ui/app.slint:529
+msgid "Ready · Wi-Fi"
+msgstr "準備完了 · Wi-Fi"
+
+#: apps/desktop/ui/app.slint:534
+msgid "Waiting for the iPhone / iPad"
+msgstr "iPhone / iPad を待っています"
+
+#: apps/desktop/ui/app.slint:535
+msgid "Plug in an iPhone or iPad"
+msgstr "iPhone または iPad を接続してください"
+
+#: apps/desktop/ui/app.slint:535
+msgid "{device} ready"
+msgstr "{device} の準備ができました"
+
+#: apps/desktop/ui/app.slint:544
+msgid "Unlock it, then press Start mirroring."
+msgstr "ロックを解除してから「ミラーリングを開始」を押してください。"
+
+#: apps/desktop/ui/app.slint:567
+msgid "Windows Firewall blocks ZenLink, so the iPhone/iPad cannot connect. Press the button below, then choose Yes."
+msgstr "Windows ファイアウォールが ZenLink をブロックしているため、iPhone/iPad が接続できません。下のボタンを押して「はい」を選んでください。"
+
+#: apps/desktop/ui/app.slint:574
+msgid "Allow ZenLink on the network"
+msgstr "ZenLink のネットワーク接続を許可"
+
+#: apps/desktop/ui/app.slint:646
+msgid "Change"
+msgstr "変更"
+
+#: apps/desktop/ui/app.slint:647
+msgid "Choose Apple Driver or ZenLink Studio"
+msgstr "Apple Driver か ZenLink Studio を選択"
+
+#: apps/desktop/ui/app.slint:654
+msgid "Wired (USB)"
+msgstr "有線 (USB)"
+
+#: apps/desktop/ui/app.slint:661
+msgid "Stop waiting"
+msgstr "待つのをやめる"
+
+#: apps/desktop/ui/app.slint:669
+msgid "Try again"
+msgstr "もう一度試す"
+
+#: apps/desktop/ui/app.slint:673
+msgid "Restore Apple driver"
+msgstr "Apple ドライバを復元"
+
+#: apps/desktop/ui/app.slint:674
+msgid "Install driver"
+msgstr "ドライバをインストール"
+
+#: apps/desktop/ui/app.slint:675
+msgid "Remove filter"
+msgstr "フィルタを削除"
+
+#: apps/desktop/ui/app.slint:676
+msgid "Choose mode"
+msgstr "モードを選択"
+
+#: apps/desktop/ui/app.slint:677
+msgid "Get Apple Devices"
+msgstr ""
+
+#: apps/desktop/ui/app.slint:678
+msgid "Open settings"
+msgstr "設定を開く"
+
+#: apps/desktop/ui/app.slint:701
+msgid "Couldn't connect"
+msgstr "接続できませんでした"
+
+#: apps/desktop/ui/app.slint:702
+msgid "Connected"
+msgstr "接続済み"
+
+#: apps/desktop/ui/app.slint:703
+msgid "Connecting to {device}"
+msgstr "{device} に接続中"
+
+#: apps/desktop/ui/app.slint:704
+msgid "Connecting"
+msgstr "接続中"
+
+#: apps/desktop/ui/app.slint:739
+msgid "Close"
+msgstr "閉じる"
+
+#: apps/desktop/ui/app.slint:901
+msgid "Close ZenLink?"
+msgstr "ZenLink を閉じますか？"
+
+#: apps/desktop/ui/app.slint:904
+msgid "ZenLink can keep running in the system tray so your devices stay connected."
+msgstr "ZenLink はシステムトレイで動き続けられるので、デバイスの接続を保てます。"
+
+#: apps/desktop/ui/app.slint:914
+msgid "Remember my choice"
+msgstr "この選択を記憶する"
+
+#: apps/desktop/ui/app.slint:933
+msgid "You can change this in Settings."
+msgstr "設定でいつでも変更できます。"
+
+#: apps/desktop/ui/app.slint:939
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: apps/desktop/ui/app.slint:941
+msgid "Quit ZenLink"
+msgstr "ZenLink を終了"
+
+#: apps/desktop/ui/app.slint:942
+msgid "Minimize to tray"
+msgstr "トレイに最小化"
+
+#: apps/desktop/ui/app.slint:992
+msgid "How should ZenLink connect?"
+msgstr "ZenLink はどう接続しますか？"
+
+#: apps/desktop/ui/app.slint:993
+msgid "Nothing connects and no driver changes until you continue."
+msgstr "続けるまで、何も接続せず、ドライバも変更しません。"
+
+#: apps/desktop/ui/app.slint:1011
+msgid "Standard · full control"
+msgstr "標準 · フルコントロール"
+
+#: apps/desktop/ui/app.slint:1012
+msgid "Recommended"
+msgstr "おすすめ"
+
+#: apps/desktop/ui/app.slint:1013
+msgid "Uses Apple's own driver. Most compatible, stable and easy."
+msgstr "Apple 純正ドライバを使用。最も互換性が高く、安定していて簡単です。"
+
+#: apps/desktop/ui/app.slint:1015
+msgid "Up to 60 fps, HEVC (device-limited bitrate, about 4–6 Mbps)"
+msgstr "最大 60 fps、HEVC（デバイス制限のビットレート、約 4〜6 Mbps）"
+
+#: apps/desktop/ui/app.slint:1016
+msgid "Mouse touch, keyboard, gestures and buttons"
+msgstr "マウスでのタッチ、キーボード、ジェスチャ、ボタン操作"
+
+#: apps/desktop/ui/app.slint:1017
+msgid "Apple's own driver, nothing to install"
+msgstr "Apple 純正ドライバ、インストール不要"
+
+#: apps/desktop/ui/app.slint:1018
+msgid "Wired or Wi-Fi (after a one-time setup with the cable)"
+msgstr "有線、または Wi-Fi（初回のみケーブルでのセットアップが必要）"
+
+#: apps/desktop/ui/app.slint:1019
+msgid "iOS 17–26: Hybrid Control (experimental)"
+msgstr "iOS 17〜26: ハイブリッドコントロール（実験的）"
+
+#: apps/desktop/ui/app.slint:1020
+msgid "iOS 16 or older: use ZenLink Studio"
+msgstr "iOS 16 以前: ZenLink Studio をお使いください"
+
+#: apps/desktop/ui/app.slint:1029
+msgid "For live streaming"
+msgstr "ライブ配信用"
+
+#: apps/desktop/ui/app.slint:1030
+msgid "Best quality for streaming: high bitrate (measured 12–30 Mbps), up to 60 fps, very low latency. Needs the libusb0 driver."
+msgstr "配信に最適な画質: 高ビットレート（実測 12〜30 Mbps）、最大 60 fps、超低遅延。libusb0 ドライバが必要です。"
+
+#: apps/desktop/ui/app.slint:1032
+msgid "Up to 60 fps, full native resolution over the cable, high-bitrate H.264"
+msgstr "最大 60 fps、ケーブル経由でフル解像度、高ビットレートの H.264"
+
+#: apps/desktop/ui/app.slint:1033
+msgid "Wired (USB) or Wi-Fi (AirPlay, no driver)"
+msgstr "有線 (USB)、または Wi-Fi (AirPlay、ドライバ不要)"
+
+#: apps/desktop/ui/app.slint:1034
+msgid "Picture and sound only: no touch, keyboard or gestures"
+msgstr "映像と音声のみ: タッチ、キーボード、ジェスチャは使えません"
+
+#: apps/desktop/ui/app.slint:1035
+msgid "Apple apps can't see the device until you switch back"
+msgstr "切り替えて戻すまで、Apple のアプリはデバイスを認識できません"
+
+#: apps/desktop/ui/app.slint:1042
+msgid "Connection"
+msgstr "接続"
+
+#: apps/desktop/ui/app.slint:1046
+msgid "Wired"
+msgstr "有線"
+
+#: apps/desktop/ui/app.slint:1057
+msgid "You can change it any time in Settings › Connection & driver. Changing it may need an app restart and reconnecting the cable."
+msgstr "設定 › 接続とドライバ でいつでも変更できます。変更にはアプリの再起動とケーブルのつなぎ直しが必要な場合があります。"
+
+#: apps/desktop/ui/app.slint:1064
+msgid "Change device type"
+msgstr "デバイスタイプを変更"
+
+#: apps/desktop/ui/app.slint:1071
+msgid "Continue"
+msgstr "続ける"
+
+#: apps/desktop/ui/app.slint:1190
+msgid "Detected"
+msgstr "検出しました"
+
+#: apps/desktop/ui/app.slint:1191
+msgid " detected"
+msgstr " を検出"
+
+#: apps/desktop/ui/app.slint:1192
+msgid "Mirror and control compatible Apple devices using USB or Wi-Fi."
+msgstr "対応する Apple デバイスを USB または Wi-Fi でミラーリング＆コントロールできます。"
+
+#: apps/desktop/ui/app.slint:1193
+msgid "Android Smartphone / Tablet"
+msgstr "Android スマートフォン / タブレット"
+
+#: apps/desktop/ui/app.slint:1194
+msgid "High-performance Android mirroring and control over USB or Wi-Fi."
+msgstr "USB または Wi-Fi で Android を高性能にミラーリング＆コントロール。"
+
+#: apps/desktop/ui/app.slint:1196
+msgid "Apple Driver or ZenLink Studio"
+msgstr "Apple Driver または ZenLink Studio"
+
+#: apps/desktop/ui/app.slint:1197
+msgid "Wired or Wi-Fi"
+msgstr "有線または Wi-Fi"
+
+#: apps/desktop/ui/app.slint:1200
+msgid "Through ADB and scrcpy, no app on the phone"
+msgstr "ADB と scrcpy 経由、スマホにアプリ不要"
+
+#: apps/desktop/ui/app.slint:1201
+msgid "Wired or Wi-Fi, any Android brand"
+msgstr "有線または Wi-Fi、どの Android メーカーでも"
+
+#: apps/desktop/ui/app.slint:1236
+msgid "Welcome to ZenLink"
+msgstr "ZenLink へようこそ"
+
+#: apps/desktop/ui/app.slint:1239
+msgid "Which device would you like to connect?"
+msgstr "どのデバイスを接続しますか？"
+
+#: apps/desktop/ui/app.slint:1308
+msgid "Apple and Android devices are both connected. Choose the one to mirror."
+msgstr "Apple と Android の両方のデバイスが接続されています。ミラーリングする方を選んでください。"
+
+#: apps/desktop/ui/app.slint:1315
+msgid "Remember device type"
+msgstr "デバイスタイプを記憶する"
+
+#: apps/desktop/ui/app.slint:1319
+msgid "You can change it any time in Settings › Device type or with the Back button."
+msgstr "設定 › デバイスタイプ、または「戻る」ボタンでいつでも変更できます。"
+
+#: apps/desktop/ui/app.slint:1432
+msgid "Android video"
+msgstr "Android の映像"
+
+#: apps/desktop/ui/app.slint:1436
+msgid "A profile fills in resolution, FPS, bitrate and codec; change one value and the profile becomes Custom. Each phone keeps its own settings (the same over USB and Wi-Fi). Encoders are read from the phone on the first mirroring; if the chosen encoder fails, ZenLink tries another hardware encoder, then H.264, at most 4 times, and keeps your choice."
+msgstr "プロファイルを選ぶと解像度、FPS、ビットレート、コーデックが入力されます。どれか1つ変えるとプロファイルは「カスタム」になります。各スマホごとに設定が保存されます（USB でも Wi-Fi でも同じ）。エンコーダは初回ミラーリング時にスマホから読み取られます。選んだエンコーダが失敗したら、ZenLink は別のハードウェアエンコーダ、次に H.264 を最大4回まで試し、あなたの選択は保持されます。"
+
+#: apps/desktop/ui/app.slint:1444
+msgid "Resolution"
+msgstr "解像度"
+
+#: apps/desktop/ui/app.slint:1444
+msgid "Longest side."
+msgstr "最長辺。"
+
+#: apps/desktop/ui/app.slint:1451
+msgid "A cap; the phone never goes above its refresh rate."
+msgstr "上限です。スマホのリフレッシュレートを超えることはありません。"
+
+#: apps/desktop/ui/app.slint:1470
+msgid "H.265 needs HEVC Video Extensions on Windows."
+msgstr "H.265 には Windows の HEVC ビデオ拡張機能が必要です。"
+
+#: apps/desktop/ui/app.slint:1471
+msgid "This phone has no H.265 encoder."
+msgstr "このスマホには H.265 エンコーダがありません。"
+
+#: apps/desktop/ui/app.slint:1472
+msgid "Auto = H.264, the lowest latency."
+msgstr "自動 = H.264、最も低遅延。"
+
+#: apps/desktop/ui/app.slint:1482
+msgid "Detected on the first mirroring."
+msgstr "初回ミラーリング時に検出されます。"
+
+#: apps/desktop/ui/app.slint:1491
+msgid "In use"
+msgstr "使用中"
+
+#: apps/desktop/ui/app.slint:1520
+msgid "Already on the cable? Press the Wi-Fi button next to the phone's name, done. Without a cable (Android 11+):"
+msgstr "もうケーブルでつながっていますか？スマホ名の横の Wi-Fi ボタンを押すだけです。ケーブルなしの場合 (Android 11+):"
+
+#: apps/desktop/ui/app.slint:1527
+msgid "Option 1 · Scan a QR code (easiest)"
+msgstr "方法 1 · QR コードをスキャン（一番簡単）"
+
+#: apps/desktop/ui/app.slint:1528
+msgid "The phone and the PC are on the same Wi-Fi."
+msgstr "スマホと PC が同じ Wi-Fi につながっています。"
+
+#: apps/desktop/ui/app.slint:1529
+msgid "On the phone: Settings › Developer options › Wireless debugging › turn it on."
+msgstr "スマホで: 設定 › 開発者向けオプション › ワイヤレス デバッグ › オンにしてください。"
+
+#: apps/desktop/ui/app.slint:1530
+msgid "Press the button below, then on the phone tap \"Pair device with QR code\" and scan."
+msgstr "下のボタンを押してから、スマホで「QR コードによるデバイスのペア設定」をタップしてスキャンしてください。"
+
+#: apps/desktop/ui/app.slint:1536
+msgid "Show QR code"
+msgstr "QR コードを表示"
+
+#: apps/desktop/ui/app.slint:1538
+msgid "Show a QR code to scan on the phone"
+msgstr "スマホでスキャンする QR コードを表示"
+
+#: apps/desktop/ui/app.slint:1562
+msgid "On the phone: Wireless debugging › \"Pair device with QR code\", then scan this code."
+msgstr "スマホで: ワイヤレス デバッグ › 「QR コードによるデバイスのペア設定」をタップし、このコードをスキャンしてください。"
+
+#: apps/desktop/ui/app.slint:1588
+msgid "Option 2 · Pairing code or IP address"
+msgstr "方法 2 · ペア設定コードまたは IP アドレス"
+
+#: apps/desktop/ui/app.slint:1590
+msgid "Hide"
+msgstr "隠す"
+
+#: apps/desktop/ui/app.slint:1590
+msgid "Show"
+msgstr "表示"
+
+#: apps/desktop/ui/app.slint:1596
+msgid "In Wireless debugging, tap \"Pair device with pairing code\"."
+msgstr "ワイヤレス デバッグで「ペア設定コードによるデバイスのペア設定」をタップしてください。"
+
+#: apps/desktop/ui/app.slint:1597
+msgid "Enter the IP:port and the 6-digit code shown in that window, press Pair."
+msgstr "その画面に表示される IP:ポートと6桁のコードを入力し、「ペア設定」を押してください。"
+
+#: apps/desktop/ui/app.slint:1598
+msgid "Enter the IP:port from the main Wireless debugging screen (a different port), press Connect. Paired before? Go straight to step 3."
+msgstr "ワイヤレス デバッグのメイン画面の IP:ポート（別のポート）を入力し、「接続」を押してください。ペア設定済みならステップ3へどうぞ。"
+
+#: apps/desktop/ui/app.slint:1602
+msgid "IP:port, e.g. 192.168.1.20:37099"
+msgstr "IP:ポート（例: 192.168.1.20:37099）"
+
+#: apps/desktop/ui/app.slint:1608
+msgid "6-digit code"
+msgstr "6桁のコード"
+
+#: apps/desktop/ui/app.slint:1620
+msgid "Step 2: pair once with the code from the phone"
+msgstr "ステップ 2: スマホのコードで一度だけペア設定"
+
+#: apps/desktop/ui/app.slint:1626
+msgid "Connect"
+msgstr "接続"
+
+#: apps/desktop/ui/app.slint:1628
+msgid "Step 3: connect to this address (adb connect)"
+msgstr "ステップ 3: このアドレスに接続 (adb connect)"
+
+#: apps/desktop/ui/app.slint:1699
+msgid "Android needs adb, Google's official tool (about 8 MB). ZenLink downloads and installs it for you, once."
+msgstr "Android には Google 公式ツール adb（約 8 MB）が必要です。ZenLink が一度だけダウンロードしてインストールします。"
+
+#: apps/desktop/ui/app.slint:1717
+msgid "Downloading adb… "
+msgstr "adb をダウンロード中… "
+
+#: apps/desktop/ui/app.slint:1726
+msgid "Install adb"
+msgstr "adb をインストール"
+
+#: apps/desktop/ui/app.slint:1727
+msgid "Download from dl.google.com, checked with SHA-256"
+msgstr "dl.google.com からダウンロードし、SHA-256 で検証します"
+
+#: apps/desktop/ui/app.slint:1762
+msgid "Switch to Wi-Fi: once connected, you can unplug the cable"
+msgstr "Wi-Fi に切り替え: 接続後はケーブルを抜けます"
+
+#: apps/desktop/ui/app.slint:1781
+msgid "Start over the USB cable (most stable, lowest delay)"
+msgstr "USB ケーブルで開始（最も安定、低遅延）"
+
+#: apps/desktop/ui/app.slint:1788
+msgid "Start over Wi-Fi (you can unplug the cable)"
+msgstr "Wi-Fi で開始（ケーブルを抜けます）"
+
+#: apps/desktop/ui/app.slint:1795
+msgid "Start mirroring the picked device"
+msgstr "選んだデバイスのミラーリングを開始"
+
+#: apps/desktop/ui/app.slint:1800
+msgid "Connecting… the phone starts the scrcpy server."
+msgstr "接続中… スマホが scrcpy サーバーを起動しています。"
+
+#: apps/desktop/ui/app.slint:1817
+msgid "Working…"
+msgstr "処理中…"
+
+#: apps/desktop/ui/app.slint:1827
+msgid "Connect over Wi-Fi"
+msgstr "Wi-Fi で接続"
+
+#: apps/desktop/ui/app.slint:1829
+msgid "Scan a QR code, a pairing code or an IP:port address"
+msgstr "QR コード、ペア設定コード、または IP:ポートで"
+
+#: apps/desktop/ui/app.slint:1850
+msgid "Turn on USB debugging"
+msgstr "USB デバッグをオンにする"
+
+#: apps/desktop/ui/app.slint:1851
+msgid "Settings › About phone › tap Build number 7×, then Developer options › USB debugging."
+msgstr "設定 › デバイス情報 › ビルド番号を7回タップし、開発者向けオプション › USB デバッグ をオンにしてください。"
+
+#: apps/desktop/ui/app.slint:1855
+msgid "Plug in the USB cable"
+msgstr "USB ケーブルを接続"
+
+#: apps/desktop/ui/app.slint:1856
+msgid "Use a data cable, not a charge-only cable."
+msgstr "充電専用ではなく、データ転送できるケーブルを使ってください。"
+
+#: apps/desktop/ui/app.slint:1860
+msgid "Allow it on the phone"
+msgstr "スマホで許可する"
+
+#: apps/desktop/ui/app.slint:1861
+msgid "Tap Allow on the Allow USB debugging prompt."
+msgstr "「USB デバッグを許可しますか？」で「許可」をタップしてください。"
+
+#: apps/desktop/ui/app.slint:1866
+msgid "Beta: picture, sound (Android 11+) and control from the PC. No driver is installed or changed."
+msgstr "ベータ: 映像、音声 (Android 11+)、PC からの操作。ドライバのインストールや変更はしません。"
+
+#: apps/desktop/ui/app.slint:1982
+msgid "Connect a new device"
+msgstr "新しいデバイスを接続"
+
+#: apps/desktop/ui/app.slint:1983
+msgid "Once connected, the device shows up in the menu on the left."
+msgstr "接続すると、デバイスは左のメニューに表示されます。"
+
+#: apps/desktop/ui/app.slint:2004
+msgid "Phones & tablets, any brand"
+msgstr "スマホ＆タブレット、メーカー不問"
+
+#: apps/desktop/ui/app.slint:2014
+msgid "Cable, then Wi-Fi"
+msgstr "ケーブル接続後に Wi-Fi へ"
+
+#: apps/desktop/ui/app.slint:2023
+msgid "Android needs adb (about 8 MB, once)."
+msgstr "Android には adb が必要です（約 8 MB、一度だけ）。"
+
+#: apps/desktop/ui/app.slint:2034
+msgid "USB cable"
+msgstr "USB ケーブル"
+
+#: apps/desktop/ui/app.slint:2035
+msgid "Most stable"
+msgstr "最も安定"
+
+#: apps/desktop/ui/app.slint:2045
+msgid "No cable · Android 11+"
+msgstr "ケーブルなし · Android 11+"
+
+#: apps/desktop/ui/app.slint:2056
+msgid "Plug in a data cable"
+msgstr "データ転送できるケーブルを接続"
+
+#: apps/desktop/ui/app.slint:2057
+msgid "Then tap Allow on the phone. It shows up in the menu right away."
+msgstr "その後、スマホで「許可」をタップしてください。すぐに左のメニューに表示されます。"
+
+#: apps/desktop/ui/app.slint:2080
+msgid "Plug the cable into the PC"
+msgstr "ケーブルを PC に接続"
+
+#: apps/desktop/ui/app.slint:2081
+msgid "Unlock the iPhone/iPad first."
+msgstr "先に iPhone/iPad のロックを解除してください。"
+
+#: apps/desktop/ui/app.slint:2085
+msgid "Tap Trust, enter the passcode"
+msgstr "「信頼」をタップし、パスコードを入力"
+
+#: apps/desktop/ui/app.slint:2086
+msgid "The device shows up in the menu on the left. Pick it to start."
+msgstr "デバイスが左のメニューに表示されます。選んで開始してください。"
+
+#: apps/desktop/ui/app.slint:2090
+msgid "Wi-Fi (optional)"
+msgstr "Wi-Fi（任意）"
+
+#: apps/desktop/ui/app.slint:2091
+msgid "After one cable setup, the device on the same Wi-Fi shows up without the cable."
+msgstr "一度ケーブルでセットアップすれば、同じ Wi-Fi 上のデバイスはケーブルなしで表示されます。"
+
+#: apps/desktop/ui/app.slint:2169
+msgid "Settings & controls"
+msgstr "設定とコントロール"
+
+#: apps/desktop/ui/app.slint:2181
+msgid "Appearance"
+msgstr "外観"
+
+#: apps/desktop/ui/app.slint:2185
+msgid "Liquid Glass shows the real desktop behind the window. Thickness 0% = fully clear with no blur, higher = more frosted (Windows' own blur). Turn it off for a solid window with no extra GPU work."
+msgstr "Liquid Glass はウィンドウの後ろに実際のデスクトップを表示します。厚み 0% = ぼかしなしの完全な透明、高いほど曇りガラス風になります（Windows 自身のぼかし）。オフにすると不透明なウィンドウになり、GPU の追加負荷もなくなります。"
+
+#: apps/desktop/ui/app.slint:2188
+msgid "Light"
+msgstr "ライト"
+
+#: apps/desktop/ui/app.slint:2188
+msgid "Dark"
+msgstr "ダーク"
+
+#: apps/desktop/ui/app.slint:2188
+msgid "System"
+msgstr "システム"
+
+#: apps/desktop/ui/app.slint:2197
+msgid "Glass thickness"
+msgstr "ガラスの厚み"
+
+#: apps/desktop/ui/app.slint:2198
+msgid " · clear"
+msgstr " · 透明"
+
+#: apps/desktop/ui/app.slint:2206
+msgid "Animated background"
+msgstr "アニメーション背景"
+
+#: apps/desktop/ui/app.slint:2210
+msgid "Language"
+msgstr "言語"
+
+#: apps/desktop/ui/app.slint:2220
+msgid "Display & aspect"
+msgstr "表示とアスペクト比"
+
+#: apps/desktop/ui/app.slint:2224
+msgid "Auto-Fit shows the whole device screen. Edge-to-Edge fills the area and crops the sides. The window follows the device's size and orientation (portrait / landscape)."
+msgstr "自動フィットはデバイスの画面全体を表示します。端まで表示は領域いっぱいに広げ、両端を切り取ります。ウィンドウはデバイスのサイズと向き（縦 / 横）に追従します。"
+
+#: apps/desktop/ui/app.slint:2232
+msgid "Window follows the screen"
+msgstr "ウィンドウが画面に追従"
+
+#: apps/desktop/ui/app.slint:2233
+msgid "Portrait / landscape automatically"
+msgstr "縦 / 横を自動で"
+
+#: apps/desktop/ui/app.slint:2236
+msgid "Rotation"
+msgstr "回転"
+
+#: apps/desktop/ui/app.slint:2247
+msgid "Record / stream in OBS"
+msgstr "OBS で録画 / 配信"
+
+#: apps/desktop/ui/app.slint:2251
+msgid "Game Capture takes the picture straight from the GPU: sharp, no window frame, and it keeps working when ZenLink is behind other windows. Window Capture also works, but it picks up the window frame too."
+msgstr "ゲームキャプチャは GPU から直接映像を取得します: 鮮明で、ウィンドウ枠が映らず、ZenLink が他のウィンドウの後ろにあっても動き続けます。ウィンドウキャプチャも使えますが、ウィンドウ枠も一緒に映ります。"
+
+#: apps/desktop/ui/app.slint:2253
+msgid "In OBS, add a Game Capture source → Mode: capture specific window → pick [ZenLink.exe]: ZenLink. Then select it and press Ctrl+F (Fit to screen): portrait / landscape stays centred automatically."
+msgstr "OBS でゲームキャプチャソースを追加 → モード: 特定のウィンドウをキャプチャ → [ZenLink.exe]: ZenLink を選択。次にそれを選んで Ctrl+F（画面に合わせる）を押すと、縦 / 横が自動で中央に保たれます。"
+
+#: apps/desktop/ui/app.slint:2261
+msgid "Device audio → PC"
+msgstr "デバイスの音声 → PC"
+
+#: apps/desktop/ui/app.slint:2265
+msgid "Sound plays through WASAPI on this PC. Lip sync holds the picture a little so it matches the sound. Low buffer is tighter, high rides out hiccups."
+msgstr "音声は WASAPI 経由でこの PC で再生されます。リップシンクのため、映像を少し遅らせて音声に合わせます。バッファが小さいほどタイトに、大きいほど途切れに強くなります。"
+
+#: apps/desktop/ui/app.slint:2268
+msgid "Device"
+msgstr "デバイス"
+
+#: apps/desktop/ui/app.slint:2268
+msgid "Both"
+msgstr "両方"
+
+#: apps/desktop/ui/app.slint:2274
+msgid "Sound on Windows only; the device stays silent."
+msgstr "音声は Windows だけ、デバイスは無音になります。"
+
+#: apps/desktop/ui/app.slint:2276
+msgid "Sound on the device only; Windows stays silent."
+msgstr "音声はデバイスだけ、Windows は無音になります。"
+
+#: apps/desktop/ui/app.slint:2278
+msgid "ZenLink Studio over the cable can't play in both places: the sound plays on Windows."
+msgstr "ケーブル接続の ZenLink Studio は両方では再生できません: 音声は Windows で再生されます。"
+
+#: apps/desktop/ui/app.slint:2280
+msgid "Sound on Windows and the phone (Android 13+; older phones: Windows only)."
+msgstr "音声は Windows とスマホの両方 (Android 13+、古いスマホでは Windows のみ)。"
+
+#: apps/desktop/ui/app.slint:2281
+msgid "Sound on Windows and on the device."
+msgstr "音声は Windows とデバイスの両方。"
+
+#: apps/desktop/ui/app.slint:2287
+msgid "PC volume"
+msgstr "PC の音量"
+
+#: apps/desktop/ui/app.slint:2297
+msgid "Low"
+msgstr "低"
+
+#: apps/desktop/ui/app.slint:2297
+msgid "High"
+msgstr "高"
+
+#: apps/desktop/ui/app.slint:2304
+msgid "Control"
+msgstr "コントロール"
+
+#: apps/desktop/ui/app.slint:2309
+msgid "Click = tap, drag = swipe, scroll = scroll on the phone. Right click = Back, middle click = Home. Click the picture first so the PC keyboard types on the phone."
+msgstr "クリック = タップ、ドラッグ = スワイプ、スクロール = スマホのスクロール。右クリック = 戻る、中央クリック = ホーム。先に映像をクリックすると、PC のキーボードでスマホに入力できます。"
+
+#: apps/desktop/ui/app.slint:2310
+msgid "Click and drag = touch. Mouse Back button = swipe back. The PC keyboard works as a hardware keyboard in Apple Driver mode; click the picture first."
+msgstr "クリック＆ドラッグ = タッチ。マウスの「戻る」ボタン = スワイプで戻る。Apple Driver モードでは PC キーボードがハードウェアキーボードとして使えます。先に映像をクリックしてください。"
+
+#: apps/desktop/ui/app.slint:2311
+msgid "Touch with the mouse"
+msgstr "マウスでタッチ"
+
+#: apps/desktop/ui/app.slint:2312
+msgid "PC keyboard to the device"
+msgstr "PC のキーボードをデバイスへ"
+
+#: apps/desktop/ui/app.slint:2313
+msgid "Gestures (scroll, mouse Back button)"
+msgstr "ジェスチャ（スクロール、マウスの「戻る」ボタン）"
+
+#: apps/desktop/ui/app.slint:2321
+msgid "While the PC keyboard types on the device, single keys (Space, M) go to the device; Alt and Ctrl shortcuts stay with ZenLink."
+msgstr "PC キーボードでデバイスに入力している間、単独キー（Space、M）はデバイスに送られ、Alt や Ctrl のショートカットは ZenLink 側に残ります。"
+
+#: apps/desktop/ui/app.slint:2322
+msgid "Sound on the PC on / off"
+msgstr "PC のサウンド オン / オフ"
+
+#: apps/desktop/ui/app.slint:2323
+msgid "Full screen / leave"
+msgstr "全画面 / 終了"
+
+#: apps/desktop/ui/app.slint:2324
+msgid "Open / close Settings"
+msgstr "設定を開く / 閉じる"
+
+#: apps/desktop/ui/app.slint:2325
+msgid "Rotate the view (Auto, 90°, 180°, 270°, 0°)"
+msgstr "表示を回転（自動、90°、180°、270°、0°）"
+
+#: apps/desktop/ui/app.slint:2327
+msgid "Copy the text on the device screen to the PC (OCR)"
+msgstr "デバイス画面の文字を PC にコピー (OCR)"
+
+#: apps/desktop/ui/app.slint:2328
+msgid "Clear the copied-text history"
+msgstr "コピーしたテキストの履歴を消去"
+
+#: apps/desktop/ui/app.slint:2329
+msgid "Lock the device"
+msgstr "デバイスをロック"
+
+#: apps/desktop/ui/app.slint:2330
+msgid "Paste the PC clipboard on the phone"
+msgstr "PC のクリップボードをスマホに貼り付け"
+
+#: apps/desktop/ui/app.slint:2331
+msgid "Copy / cut on the phone, also to the PC clipboard"
+msgstr ""
+
+#: apps/desktop/ui/app.slint:2332
+msgid "Select all, undo on the phone"
+msgstr ""
+
+#: apps/desktop/ui/app.slint:2333
+msgid "Pinch zoom on the device (touchpad pinch too)"
+msgstr ""
+
+#: apps/desktop/ui/app.slint:2334
+msgid "Notification Center (open / close)"
+msgstr "通知センター（開く / 閉じる）"
+
+#: apps/desktop/ui/app.slint:2335
+msgid "Control Center (open / close)"
+msgstr "コントロールセンター（開く / 閉じる）"
+
+#: apps/desktop/ui/app.slint:2337
+msgid "Phone volume up / down"
+msgstr "スマホの音量 上げる / 下げる"
+
+#: apps/desktop/ui/app.slint:2338
+msgid "Wake & unlock (saved passcode)"
+msgstr "起こしてロック解除（保存済みパスコード）"
+
+#: apps/desktop/ui/app.slint:2339
+msgid "Stealth dim: device screen to 0% / restore"
+msgstr "ステルス減光: デバイス画面を 0% に / 復元"
+
+#: apps/desktop/ui/app.slint:2340
+msgid "Type the PC clipboard text on the device"
+msgstr "PC のクリップボードのテキストをデバイスに入力"
+
+#: apps/desktop/ui/app.slint:2341
+msgid "Paste the device's own clipboard"
+msgstr ""
+
+#: apps/desktop/ui/app.slint:2342
+msgid "Show / hide the on-screen keyboard"
+msgstr "画面キーボードの表示 / 非表示"
+
+#: apps/desktop/ui/app.slint:2343
+msgid "Copy, cut, select all, undo in iOS"
+msgstr ""
+
+#: apps/desktop/ui/app.slint:2345
+msgid "ZenLink Studio is picture and sound only: device control and its shortcuts are in Apple Driver mode."
+msgstr "ZenLink Studio は映像と音声のみです: デバイス操作とそのショートカットは Apple Driver モードにあります。"
+
+#: apps/desktop/ui/app.slint:2346
+msgid "Apple device shortcuts work in Apple Driver mode while mirroring."
+msgstr "Apple デバイスのショートカットは、ミラーリング中の Apple Driver モードで使えます。"
+
+#: apps/desktop/ui/app.slint:2354
+msgid "Device type"
+msgstr "デバイスタイプ"
+
+#: apps/desktop/ui/app.slint:2358
+msgid "Choose iPhone / iPad or Android. A running session is stopped safely first. Apple and Android settings are kept separately."
+msgstr "iPhone / iPad か Android を選んでください。実行中のセッションは先に安全に停止されます。Apple と Android の設定は別々に保持されます。"
+
+#: apps/desktop/ui/app.slint:2377
+msgid "Auto unlock"
+msgstr "自動ロック解除"
+
+#: apps/desktop/ui/app.slint:2381
+msgid "Apple Driver mode only (not ZenLink Studio). ZenLink wakes the iPhone/iPad, swipes up and types your passcode or password. It is stored encrypted (Windows DPAPI) for this Windows account only and never sent anywhere. Alt+U unlocks at any time."
+msgstr "Apple Driver モードのみ（ZenLink Studio では使えません）。ZenLink が iPhone/iPad を起こし、上へスワイプしてパスコードまたはパスワードを入力します。パスコードは暗号化（Windows DPAPI）されてこの Windows アカウント専用に保存され、外部に送信されることはありません。Alt+U でいつでもロック解除できます。"
+
+#: apps/desktop/ui/app.slint:2383
+msgid "A passcode is saved on this PC."
+msgstr "この PC にパスコードが保存されています。"
+
+#: apps/desktop/ui/app.slint:2383
+msgid "No passcode saved yet."
+msgstr "パスコードはまだ保存されていません。"
+
+#: apps/desktop/ui/app.slint:2391
+msgid "Device passcode or password"
+msgstr "デバイスのパスコードまたはパスワード"
+
+#: apps/desktop/ui/app.slint:2397
+msgid "Save"
+msgstr "保存"
+
+#: apps/desktop/ui/app.slint:2402
+msgid "Remove"
+msgstr "削除"
+
+#: apps/desktop/ui/app.slint:2407
+msgid "Unlock when mirroring starts"
+msgstr "ミラーリング開始時にロック解除"
+
+#: apps/desktop/ui/app.slint:2408
+msgid "Also Alt+U at any time"
+msgstr "Alt+U でもいつでも可能"
+
+#: apps/desktop/ui/app.slint:2412
+msgid "Unlock again when the screen locks"
+msgstr "画面がロックされたら再度ロック解除"
+
+#: apps/desktop/ui/app.slint:2413
+msgid "Apple Driver mode, uses the saved passcode"
+msgstr "Apple Driver モード、保存済みパスコードを使用"
+
+#: apps/desktop/ui/app.slint:2417
+msgid "Limit automatic unlocks"
+msgstr "自動ロック解除の回数を制限"
+
+#: apps/desktop/ui/app.slint:2418
+msgid "At most 3 times in 30 seconds, so a wrong passcode cannot repeat"
+msgstr "30秒間に最大3回まで。間違ったパスコードが繰り返されないようにします"
+
+#: apps/desktop/ui/app.slint:2424
+msgid "Connection & driver"
+msgstr "接続とドライバ"
+
+#: apps/desktop/ui/app.slint:2428
+msgid "Apple Driver uses Apple's own driver. ZenLink Studio uses libusb0 for high bitrate. Driver changes always ask for confirmation and administrator approval."
+msgstr "Apple Driver は Apple 純正ドライバを使います。ZenLink Studio は高ビットレート用に libusb0 を使います。ドライバの変更には必ず確認と管理者の承認が必要です。"
+
+#: apps/desktop/ui/app.slint:2443
+msgid "Wi-Fi: pick ZenLinkStudio in Screen Mirroring on the device."
+msgstr "Wi-Fi: デバイスの画面ミラーリングで ZenLinkStudio を選んでください。"
+
+#: apps/desktop/ui/app.slint:2443
+msgid "Wired: through the libusb0 driver, high bitrate."
+msgstr "有線: libusb0 ドライバ経由、高ビットレート。"
+
+#: apps/desktop/ui/app.slint:2444
+msgid "Wi-Fi: press Set up Wi-Fi once with the cable in. A plugged-in device still works over the cable."
+msgstr "Wi-Fi: ケーブルをつないだ状態で一度「Wi-Fi をセットアップ」を押してください。つないだままのデバイスはケーブル経由でも使えます。"
+
+#: apps/desktop/ui/app.slint:2444
+msgid "Wired: through Apple's driver."
+msgstr "有線: Apple のドライバ経由。"
+
+#: apps/desktop/ui/app.slint:2451
+msgid "Change mode"
+msgstr "モードを変更"
+
+#: apps/desktop/ui/app.slint:2452
+msgid "Check drivers"
+msgstr "ドライバを確認"
+
+#: apps/desktop/ui/app.slint:2453
+msgid "Set up Wi-Fi"
+msgstr "Wi-Fi をセットアップ"
+
+#: apps/desktop/ui/app.slint:2457
+msgid "Remove libusb0 filter"
+msgstr "libusb0 フィルタを削除"
+
+#: apps/desktop/ui/app.slint:2459
+msgid "Install ZenLink Studio driver"
+msgstr "ZenLink Studio ドライバをインストール"
+
+#: apps/desktop/ui/app.slint:2464
+msgid "Updates"
+msgstr "アップデート"
+
+#: apps/desktop/ui/app.slint:2468
+msgid "This copy was installed from the Microsoft Store, so the Microsoft Store downloads and installs updates. Your settings stay."
+msgstr "このコピーは Microsoft Store からインストールされたため、アップデートは Microsoft Store がダウンロード・インストールします。設定は保持されます。"
+
+#: apps/desktop/ui/app.slint:2468
+msgid "ZenLink downloads only after you press Update, straight from the official GitHub release, and checks the file's SHA-256 before running it. Your settings stay. Beta and Stable are separate apps: switching channel installs the other edition next to this one."
+msgstr "ZenLink は「更新」を押した後にだけ、公式 GitHub リリースから直接ダウンロードし、実行前にファイルの SHA-256 を確認します。設定は保持されます。Beta と Stable は別のアプリです: チャンネルを切り替えると、もう一方の版が横にインストールされます。"
+
+#: apps/desktop/ui/app.slint:2471
+msgid "Microsoft Store edition: updates are installed by the Microsoft Store."
+msgstr "Microsoft Store 版: アップデートは Microsoft Store がインストールします。"
+
+#: apps/desktop/ui/app.slint:2474
+msgid "Open in the Microsoft Store"
+msgstr "Microsoft Store で開く"
+
+#: apps/desktop/ui/app.slint:2475
+msgid "Check at start"
+msgstr "起動時に確認"
+
+#: apps/desktop/ui/app.slint:2477
+msgid "Channel"
+msgstr "チャンネル"
+
+#: apps/desktop/ui/app.slint:2481
+msgid "Stable"
+msgstr "Stable"
+
+#: apps/desktop/ui/app.slint:2506
+msgid "Install v"
+msgstr "v をインストール"
+
+#: apps/desktop/ui/app.slint:2506
+msgid "Update to v"
+msgstr "v に更新"
+
+#: apps/desktop/ui/app.slint:2511
+msgid "Check for updates"
+msgstr "アップデートを確認"
+
+#: apps/desktop/ui/app.slint:2512
+msgid "Release notes"
+msgstr "リリースノート"
+
+#: apps/desktop/ui/app.slint:2517
+msgid "Startup & closing"
+msgstr "起動と終了"
+
+#: apps/desktop/ui/app.slint:2521
+msgid "Start with Windows"
+msgstr "Windows と一緒に起動"
+
+#: apps/desktop/ui/app.slint:2522
+msgid "When closing the window"
+msgstr "ウィンドウを閉じたとき"
+
+#: apps/desktop/ui/app.slint:2525
+msgid "Ask every time"
+msgstr "毎回確認する"
+
+#: apps/desktop/ui/app.slint:2525
+msgid "Quit"
+msgstr "終了する"
+
+#: apps/desktop/ui/app.slint:2532
+msgid "Advanced"
+msgstr "詳細"
+
+#: apps/desktop/ui/app.slint:2536
+msgid "Always on top"
+msgstr "常に手前に表示"
+
+#: apps/desktop/ui/app.slint:2538
+msgid "Ghost mode: press the key below while ZenLink is active. The window stays on top and clicks go to the app behind it (for example a trading chart). Press the key again, or click the tray icon, to use ZenLink again."
+msgstr ""
+
+#: apps/desktop/ui/app.slint:2550
+msgid "Ghost mode opacity"
+msgstr ""
+
+#: apps/desktop/ui/app.slint:2558
+msgid "Stats in the header"
+msgstr "ヘッダーに統計を表示"
+
+#: apps/desktop/ui/app.slint:2562
+msgid "Stats (measured)"
+msgstr "統計（実測）"
+
+#: apps/desktop/ui/app.slint:2566
+msgid "All numbers are measured: decoded fps, presented fps, skipped frames (replaced by a newer frame before display), last frame decode time."
+msgstr "すべての数値は実測です: デコード fps、表示 fps、スキップされたフレーム（表示前に新しいフレームに置き換わったもの）、最終フレームのデコード時間。"
+
+#: apps/desktop/ui/app.slint:2570
+msgid "Edge crop (fine)"
+msgstr "端の切り取り（微調整）"
+
+#: apps/desktop/ui/app.slint:2574
+msgid "Trim black bars or borders off the picture, in device pixels. Touches still land in the right place."
+msgstr "映像の黒帯や縁をデバイスピクセル単位で切り取ります。タッチの位置は正しいままです。"
+
+#: apps/desktop/ui/app.slint:2603
+msgid "Reset (0 px)"
+msgstr "リセット (0 px)"
+
+#: apps/desktop/ui/app.slint:2612
+msgid "About & credits"
+msgstr "ZenLink についてとクレジット"
+
+#: apps/desktop/ui/app.slint:2626
+msgid "Open log folder"
+msgstr "ログフォルダを開く"
+
+#: apps/desktop/ui/app.slint:2627
+msgid "ZenLink logs for bug reports (%LOCALAPPDATA%\\ZenLink-Next\\logs)"
+msgstr "バグ報告用の ZenLink ログ (%LOCALAPPDATA%\\ZenLink-Next\\logs)"
+
+#: apps/desktop/ui/app.slint:2632
+msgid "© 2026 Zenvy Zenshiro · GPL-3.0-or-later · no warranty."
+msgstr "© 2026 Zenvy Zenshiro · GPL-3.0-or-later · 無保証。"
+
+#: apps/desktop/ui/app.slint:2638
+msgid "Android: the scrcpy server (Genymobile & Romain Vimont, Apache-2.0) and Google's official adb (Android platform-tools, unmodified; NOTICE.txt in third_party). Apple: pymobiledevice3 (GPL-3.0), pane-iphone-mirror-windows (GPL-3.0), quicktime_video_hack (MIT), libusb-win32, UxPlay/playfair (GPL-3.0). AAC sound: FFmpeg (LGPL). Details: README and docs/THIRD_PARTY.md."
+msgstr "Android: scrcpy サーバー (Genymobile & Romain Vimont, Apache-2.0) と Google 公式 adb (Android platform-tools、無改変; third_party 内の NOTICE.txt)。Apple: pymobiledevice3 (GPL-3.0)、pane-iphone-mirror-windows (GPL-3.0)、quicktime_video_hack (MIT)、libusb-win32、UxPlay/playfair (GPL-3.0)。AAC 音声: FFmpeg (LGPL)。詳細: README と docs/THIRD_PARTY.md。"
+
+#: apps/desktop/ui/app.slint:2644
+msgid "Android is a trademark of Google LLC. iPhone, iPad and AirPlay are trademarks of Apple Inc. ZenLink is not affiliated with Google or Apple."
+msgstr "Android は Google LLC の商標です。iPhone、iPad、AirPlay は Apple Inc. の商標です。ZenLink は Google や Apple と提携していません。"
+
+#: apps/desktop/ui/app.slint:2697
+msgid "On the phone"
+msgstr "スマホ上"
+
+#: apps/desktop/ui/app.slint:2697
+msgid "New window"
+msgstr "新しいウィンドウ"
+
+#: apps/desktop/ui/app.slint:2704
+msgid "Search apps…"
+msgstr "アプリを検索…"
+
+#: apps/desktop/ui/app.slint:3420
+msgid "Drop to send to the device"
+msgstr "ここにドロップでデバイスへ送信"
+
+#: apps/desktop/ui/app.slint:3420
+msgid "Sending files needs Apple Driver mode"
+msgstr "ファイル送信には Apple Driver モードが必要です"
+
+#: apps/desktop/ui/app.slint:3420
+msgid "No Android phone is being mirrored"
+msgstr "ミラーリング中の Android スマホがありません"
+
+#: apps/desktop/ui/app.slint:3429
+msgid "Then pick the app on the iPhone/iPad (e.g. VLC, Documents). The file also shows in Files › On My iPhone."
+msgstr "次に iPhone/iPad でアプリ（例: VLC、Documents）を選んでください。ファイルは「ファイル」›「この iPhone 内」にも表示されます。"
+
+#: apps/desktop/ui/app.slint:3430
+msgid "ZenLink Studio replaces Apple's USB driver, so it cannot send files. Switch to Apple Driver in Settings."
+msgstr "ZenLink Studio は Apple の USB ドライバを置き換えるため、ファイルを送れません。設定で Apple Driver に切り替えてください。"
+
+#: apps/desktop/ui/app.slint:3431
+msgid "An .apk file is installed. Other files go to the phone's Download folder."
+msgstr ".apk ファイルはインストールされます。その他のファイルはスマホの Download フォルダに入ります。"
+
+#: apps/desktop/ui/app.slint:3431
+msgid "Start mirroring an Android phone, then drop files here."
+msgstr "Android スマホのミラーリングを開始してから、ファイルをここにドロップしてください。"
+
+#: apps/desktop/ui/appwin.slint:92
+msgid "Disconnected"
+msgstr "切断されました"
+
+#: apps/desktop/ui/appwin.slint:102
+msgid "Merge"
+msgstr "統合"
+
+#: apps/desktop/ui/appwin.slint:103
+msgid "Move this phone back into the main ZenLink window"
+msgstr "このスマホを ZenLink のメインウィンドウに戻す"
+
+#: apps/desktop/ui/appwin.slint:131
+msgid "The app could not be opened."
+msgstr "アプリを開けませんでした。"
+
+#: apps/desktop/ui/appwin.slint:132
+msgid "Connecting to "
+msgstr "接続中: "
+
+#: apps/desktop/ui/appwin.slint:132
+msgid "Opening "
+msgstr "開いています: "
+
+#: apps/desktop/ui/appwin.slint:164
+msgid "Home"
+msgstr "ホーム"
+
+#: apps/desktop/ui/appwin.slint:166
+msgid "Restart the app"
+msgstr "アプリを再起動"
+
+#: apps/desktop/ui/devices.slint:78
+msgid "Devices"
+msgstr "デバイス"
+
+#: apps/desktop/ui/devices.slint:85
+msgid "No device yet. Plug in a phone or connect over Wi-Fi."
+msgstr "まだデバイスがありません。スマホを接続するか、Wi-Fi でつないでください。"
+
+#: apps/desktop/ui/devices.slint:133
+msgid "Own window"
+msgstr "専用ウィンドウ"
+
+#: apps/desktop/ui/devices.slint:153
+msgid "Move to its own window"
+msgstr "専用ウィンドウに移動"
+
+#: apps/desktop/ui/devices.slint:173
+msgid "Screen"
+msgstr "画面"
+
+#: apps/desktop/ui/devices.slint:180
+msgid "Files"
+msgstr "ファイル"
+
+#: apps/desktop/ui/devices.slint:180
+msgid "Files · soon"
+msgstr "ファイル · 近日公開"
+
+#: apps/desktop/ui/devices.slint:190
+msgid "Connect a device"
+msgstr "デバイスを接続"
+
+#: apps/desktop/ui/filewin.slint:112
+msgid "Up one folder"
+msgstr "上のフォルダへ"
+
+#: apps/desktop/ui/filewin.slint:113
+msgid "Refresh"
+msgstr "更新"
+
+#: apps/desktop/ui/filewin.slint:130
+msgid "New folder"
+msgstr "新しいフォルダ"
+
+#: apps/desktop/ui/filewin.slint:134
+msgid "Copy to PC"
+msgstr "PC にコピー"
+
+#: apps/desktop/ui/filewin.slint:140
+msgid "Delete"
+msgstr "削除"
+
+#: apps/desktop/ui/filewin.slint:144
+msgid "Close files"
+msgstr "ファイルを閉じる"
+
+#: apps/desktop/ui/filewin.slint:198
+msgid "Hidden files"
+msgstr "隠しファイル"
+
+#: apps/desktop/ui/filewin.slint:201
+msgid "PC download folder"
+msgstr "PC のダウンロードフォルダ"
+
+#: apps/desktop/ui/filewin.slint:227
+msgid "Reading the folderâ€¦"
+msgstr "フォルダを読み取り中…"
+
+#: apps/desktop/ui/filewin.slint:229
+msgid "This folder is empty. Drag files from Explorer here to send them to the phone."
+msgstr "このフォルダは空です。エクスプローラーからファイルをドラッグするとスマホに送れます。"
+
+#: apps/desktop/ui/filewin.slint:249
+msgid "Double-click a folder to open it, a file to copy it to the PC. Drag files from Explorer to send them to this folder."
+msgstr "フォルダはダブルクリックで開き、ファイルはダブルクリックで PC にコピーします。エクスプローラーからファイルをドラッグすると、このフォルダに送れます。"
+
+#: apps/desktop/ui/filewin.slint:311
+msgid "Delete \""
+msgstr "「"
+
+#: apps/desktop/ui/filewin.slint:312
+msgid "\" from the phone? This cannot be undone."
+msgstr "」をスマホから削除しますか？この操作は取り消せません。"
+
+#: apps/desktop/ui/filewin.slint:318
+msgid "New folder name"
+msgstr "新しいフォルダ名"
+
+#: apps/desktop/ui/filewin.slint:350
+msgid "Create"
+msgstr "作成"
+
+#: apps/desktop/ui/widgets.slint:469
+msgid "Minimise"
+msgstr "最小化"
+
+#: apps/desktop/ui/widgets.slint:470
+msgid "Restore"
+msgstr "元のサイズに戻す"
+
+#: apps/desktop/ui/widgets.slint:470
+msgid "Maximise"
+msgstr "最大化"
+
+#: apps/desktop/src/apple.rs:992
+msgid "Developer Mode is off. On the iPhone/iPad open Settings › Privacy & Security › Developer Mode, turn it on, restart the device, tap Turn On, then try again."
+msgstr ""
+
+#: apps/desktop/src/appwin.rs:366
+msgid "The phone is no longer connected. Connect it again, then Try again."
+msgstr "スマホとの接続が切れました。再度接続してから「もう一度試す」を押してください。"
+
+#: apps/desktop/src/appwin.rs:371
+msgid "The phone's screen could not be shown: {e}"
+msgstr "スマホの画面を表示できませんでした: {e}"
+
+#: apps/desktop/src/appwin.rs:373
+msgid "The app could not open on a virtual display (Android 10+): {e}"
+msgstr "仮想ディスプレイでアプリを開けませんでした (Android 10+): {e}"
+
+#: apps/desktop/src/filedrop.rs:72
+msgid "Installing {name}…"
+msgstr "{name} をインストール中…"
+
+#: apps/desktop/src/filedrop.rs:73
+msgid "Sending {name}…"
+msgstr "{name} を送信中…"
+
+#: apps/desktop/src/filedrop.rs:101
+msgid "Saved on {device} › Download: {saved}"
+msgstr "{device} に保存しました › Download: {saved}"
+
+#: apps/desktop/src/filedrop.rs:110
+msgid "Could not send {name}: {e}"
+msgstr "{name} を送れませんでした: {e}"
+
+#: apps/desktop/src/filedrop.rs:125
+msgid "{name} is installed on {device}."
+msgstr "{name} は {device} にインストールされました。"
+
+#: apps/desktop/src/filedrop.rs:136
+msgid "{name} was not installed: {why}"
+msgstr "{name} はインストールされませんでした: {why}"
+
+#: apps/desktop/src/filedrop.rs:143
+msgid "{name} was not installed: {e}"
+msgstr "{name} はインストールされませんでした: {e}"
+
+#: apps/desktop/src/filedrop.rs:211
+msgid "Start mirroring an Android phone first, then drop the file here."
+msgstr "先に Android スマホのミラーリングを開始してから、ファイルをここにドロップしてください。"
+
+#: apps/desktop/src/filedrop.rs:216
+msgid "Folders cannot be sent yet: drop the files."
+msgstr "フォルダはまだ送れません: ファイルをドロップしてください。"
+
+#: apps/desktop/src/filedrop.rs:302
+msgid "Send {n} file(s) to an app on the iPhone/iPad"
+msgstr "{n} 個のファイルを iPhone/iPad のアプリに送信"
+
+#: apps/desktop/src/filedrop.rs:310
+msgid "Could not read the iPhone/iPad apps. Check that the device is connected in Apple Driver mode and trusted."
+msgstr "iPhone/iPad のアプリを読み取れませんでした。デバイスが Apple Driver モードで接続され、「信頼」されているか確認してください。"
+
+#: apps/desktop/src/filedrop.rs:317
+msgid "Sending files to an iPhone/iPad needs Apple Driver mode (ZenLink Studio cannot)."
+msgstr "iPhone/iPad へのファイル送信には Apple Driver モードが必要です（ZenLink Studio ではできません）。"
+
+#: apps/desktop/src/filedrop.rs:336
+msgid "Reading the iPhone/iPad apps…"
+msgstr "iPhone/iPad のアプリを読み取り中…"
+
+#: apps/desktop/src/filedrop.rs:361
+msgid "No app accepts files (File Sharing). Install e.g. VLC or Documents from the App Store."
+msgstr "ファイルを受け取れるアプリがありません（ファイル共有）。App Store から VLC や Documents などをインストールしてください。"
+
+#: apps/desktop/src/filedrop.rs:363
+msgid "Pick an app: the files go to its folder and show in Files › On My iPhone."
+msgstr "アプリを選んでください: ファイルはそのアプリのフォルダに入り、「ファイル」›「この iPhone 内」にも表示されます。"
+
+#: apps/desktop/src/filedrop.rs:397
+msgid "Sending {name} to {app} ({k}/{total})…"
+msgstr "{name} を {app} に送信中 ({k}/{total})…"
+
+#: apps/desktop/src/filedrop.rs:412
+msgid "{sent} file(s) sent to {app}. Open {app} or Files › On My iPhone."
+msgstr "{sent} 個のファイルを {app} に送りました。{app} か「ファイル」›「この iPhone 内」で開いてください。"
+
+#: apps/desktop/src/filedrop.rs:418
+msgid "{sent} of {total} file(s) sent to {app}. {last_error}"
+msgstr "{total} 個中 {sent} 個を {app} に送りました。{last_error}"
+
+#: apps/desktop/src/filewin.rs:233
+msgid "Android does not allow opening this folder."
+msgstr "Android ではこのフォルダを開けません。"
+
+#: apps/desktop/src/filewin.rs:235
+msgid "The phone is not connected. Connect it again, then Refresh."
+msgstr "スマホが接続されていません。再度接続してから「更新」を押してください。"
+
+#: apps/desktop/src/filewin.rs:237
+msgid "Failed"
+msgstr "失敗"
+
+#: apps/desktop/src/filewin.rs:337
+msgid "Copied to"
+msgstr "コピー先:"
+
+#: apps/desktop/src/filewin.rs:344
+msgid "Sent:"
+msgstr "送信済み:"
+
+#: apps/desktop/src/filewin.rs:346
+msgid "Cancelled."
+msgstr "キャンセルされました。"
+
+#: apps/desktop/src/filewin.rs:559
+msgid "Deleted."
+msgstr "削除しました。"
+
+#: apps/desktop/src/filewin.rs:566
+msgid "That folder name cannot be used."
+msgstr "そのフォルダ名は使えません。"
+
+#: apps/desktop/src/install.rs:188
+msgid "ZenLink is still running. Quit it (tray icon > Quit), then click Retry."
+msgstr ""
+
+#: apps/desktop/src/install.rs:194
+msgid "ZenLink is still running, so it was not changed."
+msgstr ""
+
+#: apps/desktop/src/install.rs:223
+msgid "Administrator permission was not given. Nothing was changed."
+msgstr ""
+
+#: apps/desktop/src/install.rs:389
+msgid "Install ZenLink {v} on this PC?\n\nFolder: {dir}\nZenLink is added to the Start menu and the desktop."
+msgstr ""
+
+#: apps/desktop/src/install.rs:395
+msgid "Update ZenLink to {v}?\n\nFolder: {dir}\nYour settings are kept."
+msgstr ""
+
+#: apps/desktop/src/install.rs:478
+msgid "Remove ZenLink from this PC?\n\nIts logs and downloaded tools are removed too; your settings stay."
+msgstr ""
+
+#: apps/desktop/src/install.rs:495
+msgid "ZenLink was removed."
+msgstr ""
+
+#: apps/desktop/src/main.rs:466
+msgid "Passcode saved (encrypted on this PC)"
+msgstr "パスコードを保存しました（この PC 上で暗号化）"
+
+#: apps/desktop/src/main.rs:468
+msgid "Passcode removed"
+msgstr "パスコードを削除しました"
+
+#: apps/desktop/src/main.rs:473
+msgid "Couldn't save the passcode"
+msgstr "パスコードを保存できませんでした"
+
+#: apps/desktop/src/main.rs:528
+msgid "Wi-Fi setup failed: {reason}"
+msgstr "Wi-Fi のセットアップに失敗しました: {reason}"
+
+#: apps/desktop/src/main.rs:557
+msgid "ready"
+msgstr "準備完了"
+
+#: apps/desktop/src/main.rs:558
+msgid "unlock + Trust"
+msgstr "ロック解除 + 信頼"
+
+#: apps/desktop/src/main.rs:560
+msgid "choose a mode"
+msgstr "モードを選択"
+
+#: apps/desktop/src/main.rs:561
+msgid "ZenLink Studio driver"
+msgstr "ZenLink Studio ドライバ"
+
+#: apps/desktop/src/main.rs:562
+msgid "needs Apple Devices"
+msgstr ""
+
+#: apps/desktop/src/main.rs:563
+msgid "needs a driver"
+msgstr "ドライバが必要"
+
+#: apps/desktop/src/main.rs:604
+msgid "not seen on Wi-Fi"
+msgstr "Wi-Fi で見つかりません"
+
+#: apps/desktop/src/main.rs:606
+msgid "not connected"
+msgstr "未接続"
+
+#: apps/desktop/src/main.rs:609
+msgid "Saved · {where_}"
+msgstr "保存済み · {where_}"
+
+#: apps/desktop/src/main.rs:611
+msgid "{model} · saved · {where_}"
+msgstr "{model} · 保存済み · {where_}"
+
+#: apps/desktop/src/main.rs:723
+msgid "Apple Driver (Standard)"
+msgstr "Apple Driver (標準)"
+
+#: apps/desktop/src/main.rs:725
+msgid "Not chosen yet"
+msgstr "まだ選択されていません"
+
+#: apps/desktop/src/main.rs:793
+msgid "Restart to switch the mode"
+msgstr "モード切り替えには再起動が必要です"
+
+#: apps/desktop/src/main.rs:794
+msgid "{name} is used after the ZenLink service restarts. Mirroring that is running stops."
+msgstr "{name} は ZenLink サービスの再起動後に使われます。実行中のミラーリングは停止します。"
+
+#: apps/desktop/src/main.rs:795
+msgid "Restart now"
+msgstr "今すぐ再起動"
+
+#: apps/desktop/src/main.rs:796
+msgid "Later"
+msgstr "後で"
+
+#: apps/desktop/src/main.rs:803
+msgid "{name} after an app restart"
+msgstr "アプリ再起動後の {name}"
+
+#: apps/desktop/src/main.rs:823
+msgid "running"
+msgstr "実行中"
+
+#: apps/desktop/src/main.rs:825
+msgid "not running"
+msgstr "停止中"
+
+#: apps/desktop/src/main.rs:827
+msgid "Native audio"
+msgstr "ネイティブオーディオ"
+
+#: apps/desktop/src/main.rs:829
+msgid "available"
+msgstr "利用可能"
+
+#: apps/desktop/src/main.rs:831
+msgid "not available"
+msgstr "利用不可"
+
+#: apps/desktop/src/main.rs:936
+msgid "H.265 (HEVC) decoder missing"
+msgstr ""
+
+#: apps/desktop/src/main.rs:937
+msgid "This iPhone/iPad sends its screen as H.265, and this Windows has no HEVC decoder, so the picture stays black. Install the free \"HEVC Video Extensions from Device Manufacturer\" from the Microsoft Store, then press Restart. Or use ZenLink Studio, which sends H.264."
+msgstr ""
+
+#: apps/desktop/src/main.rs:938
+msgid "Open Microsoft Store"
+msgstr ""
+
+#: apps/desktop/src/main.rs:1205
+msgid "mixed, needs repair"
+msgstr "混在、修復が必要"
+
+#: apps/desktop/src/main.rs:1206
+msgid "unknown"
+msgstr "不明"
+
+#: apps/desktop/src/main.rs:1211
+msgid "No iPhone/iPad on USB"
+msgstr "USB に iPhone/iPad がありません"
+
+#: apps/desktop/src/main.rs:1231
+msgid "The Media Feature Pack is missing"
+msgstr "Media Feature Pack がありません"
+
+#: apps/desktop/src/main.rs:1232
+msgid "This Windows (an N or KN edition) has no Windows video components, so ZenLink cannot show the picture. Add the free \"Media Feature Pack\" from Microsoft: Settings › Apps › Optional features › View features › Media Feature Pack. Then restart the PC."
+msgstr "この Windows (N または KN エディション) には Windows のビデオコンポーネントがないため、ZenLink は映像を表示できません。Microsoft の無料の「Media Feature Pack」を追加してください: 設定 › アプリ › オプション機能 › 機能を表示 › Media Feature Pack。その後 PC を再起動してください。"
+
+#: apps/desktop/src/main.rs:1233
+msgid "Open Optional features"
+msgstr "オプション機能を開く"
+
+#: apps/desktop/src/main.rs:1253
+msgid "Stop casting before changing drivers."
+msgstr "ドライバを変更する前にキャストを停止してください。"
+
+#: apps/desktop/src/main.rs:1257
+msgid "Connect the device first."
+msgstr "先にデバイスを接続してください。"
+
+#: apps/desktop/src/main.rs:1262
+msgid "Restore the Apple driver?"
+msgstr "Apple ドライバを復元しますか？"
+
+#: apps/desktop/src/main.rs:1263
+msgid "Apple Driver mode can see the device again. ZenLink Studio stops until its driver is installed again. A backup is saved first. Windows will ask for administrator permission. Unplug and reconnect the cable afterwards."
+msgstr "Apple Driver モードでデバイスを再び認識できるようになります。ZenLink Studio は、そのドライバが再インストールされるまで停止します。先にバックアップが保存されます。Windows が管理者権限を求めます。終わったらケーブルを抜き差ししてください。"
+
+#: apps/desktop/src/main.rs:1266
+msgid "Install the ZenLink Studio driver?"
+msgstr "ZenLink Studio ドライバをインストールしますか？"
+
+#: apps/desktop/src/main.rs:1267
+msgid "Like TikTok LIVE Studio, ZenLink installs the libusb-win32 driver for this device. While it is installed, Apple mode and Apple apps can't see the device; press Restore Apple driver to switch back. If there is no driver package for this model yet, ZenLink builds one and signs it with a new certificate named \"ZenLink ZenLink Studio\", added to Windows' trusted certificates (its private key is deleted). A backup is saved first, and Apple's driver comes back automatically if the device doesn't start. Windows will ask for administrator permission. Unplug and reconnect the cable afterwards."
+msgstr "TikTok LIVE Studio と同様に、ZenLink はこのデバイス用に libusb-win32 ドライバをインストールします。インストールされている間、Apple モードと Apple のアプリはデバイスを認識できません。「Apple ドライバを復元」を押せば戻せます。この機種用のドライバパッケージがまだない場合、ZenLink が作成し、Windows の信頼済み証明書に追加される「ZenLink ZenLink Studio」という新しい証明書で署名します（その秘密鍵は削除されます）。先にバックアップが保存され、デバイスが起動しない場合は Apple のドライバが自動で戻ります。Windows が管理者権限を求めます。終わったらケーブルを抜き差ししてください。"
+
+#: apps/desktop/src/main.rs:1270
+msgid "Remove the libusb0 filter?"
+msgstr "libusb0 フィルタを削除しますか？"
+
+#: apps/desktop/src/main.rs:1271
+msgid "It is stacked on Apple's driver, which can crash Windows. Apple's driver stays. A backup is saved first. Windows will ask for administrator permission."
+msgstr "Apple のドライバの上に重なっていて、Windows がクラッシュするおそれがあります。Apple のドライバは残ります。先にバックアップが保存されます。Windows が管理者権限を求めます。"
+
+#: apps/desktop/src/main.rs:1292
+msgid "Changing the device's driver…"
+msgstr "デバイスのドライバを変更中…"
+
+#: apps/desktop/src/main.rs:1293
+msgid "Approve the Windows permission prompt. A PowerShell window shows each step; keep the cable plugged in until it finishes."
+msgstr "Windows の許可ダイアログを承認してください。PowerShell ウィンドウに各手順が表示されます。終わるまでケーブルはつないだままにしてください。"
+
+#: apps/desktop/src/main.rs:1352
+msgid "Driver changed"
+msgstr "ドライバを変更しました"
+
+#: apps/desktop/src/main.rs:1355
+msgid "The ZenLink service needs a restart to use {target} mode. Unplug the cable and plug it in again."
+msgstr "ZenLink サービスは {target} モードを使うために再起動が必要です。ケーブルを抜いて、もう一度差し込んでください。"
+
+#: apps/desktop/src/main.rs:1361
+msgid "The backend did not answer."
+msgstr "バックエンドが応答しませんでした。"
+
+#: apps/desktop/src/main.rs:1366
+msgid "The previous state was restored."
+msgstr "以前の状態が復元されました。"
+
+#: apps/desktop/src/main.rs:1373
+msgid "Driver not changed"
+msgstr "ドライバは変更されませんでした"
+
+#: apps/desktop/src/main.rs:1615
+msgid "adb is not installed yet."
+msgstr "adb はまだインストールされていません。"
+
+#: apps/desktop/src/main.rs:1616
+msgid "Starting ADB…"
+msgstr "ADB を起動中…"
+
+#: apps/desktop/src/main.rs:1618
+msgid "ADB did not start. Close other apps that use ADB, then try again."
+msgstr "ADB が起動しませんでした。ADB を使う他のアプリを閉じて、もう一度お試しください。"
+
+#: apps/desktop/src/main.rs:1621
+msgid "ADB port 5037 is used by another program. ZenLink does not change it."
+msgstr "ADB のポート 5037 が別のプログラムに使われています。ZenLink はそれを変更しません。"
+
+#: apps/desktop/src/main.rs:1625
+msgid "Windows sees a phone on USB, but ADB does not yet. Turn on USB debugging (steps below), then unplug and plug the cable in again."
+msgstr "Windows は USB 上のスマホを認識していますが、ADB はまだ認識していません。USB デバッグをオンにして（下の手順）、ケーブルを抜き差ししてください。"
+
+#: apps/desktop/src/main.rs:1627
+msgid "No Android device yet. Follow the steps below."
+msgstr "Android デバイスはまだありません。下の手順に従ってください。"
+
+#: apps/desktop/src/main.rs:1629
+msgid "device(s) seen through ADB."
+msgstr "台のデバイスが ADB 経由で見えています。"
+
+#: apps/desktop/src/main.rs:1634
+msgid "Another app's ADB server (version {version}) is running; ZenLink does not stop it."
+msgstr "別のアプリの ADB サーバー（バージョン {version}）が動いています。ZenLink はそれを停止しません。"
+
+#: apps/desktop/src/main.rs:1648
+msgid "Emulator"
+msgstr "エミュレータ"
+
+#: apps/desktop/src/main.rs:1653
+msgid "Tap Allow on the phone"
+msgstr "スマホで「許可」をタップ"
+
+#: apps/desktop/src/main.rs:1654
+msgid "Offline, reconnect the cable"
+msgstr "オフラインです。ケーブルをつなぎ直してください"
+
+#: apps/desktop/src/main.rs:1655
+msgid "No USB permission or driver"
+msgstr "USB の許可またはドライバがありません"
+
+#: apps/desktop/src/main.rs:1656
+msgid "Recovery or bootloader mode"
+msgstr "リカバリまたはブートローダーモード"
+
+#: apps/desktop/src/main.rs:1658
+msgid "Android too old (API {sdk}, needs 21+)"
+msgstr "Android が古すぎます (API {sdk}、21 以上が必要)"
+
+#: apps/desktop/src/main.rs:1660
+msgid "Reading device info…"
+msgstr "デバイス情報を読み取り中…"
+
+#: apps/desktop/src/main.rs:1893
+msgid ", no PC decoder"
+msgstr "、PC 側デコーダなし"
+
+#: apps/desktop/src/main.rs:1907
+msgid "Start mirroring first."
+msgstr "先にミラーリングを開始してください。"
+
+#: apps/desktop/src/main.rs:1916
+msgid "No picture to read yet."
+msgstr "まだ読み取る映像がありません。"
+
+#: apps/desktop/src/main.rs:1919
+msgid "Reading the text on the screen…"
+msgstr "画面の文字を読み取り中…"
+
+#: apps/desktop/src/main.rs:1954
+msgid "Text recognition failed (Windows OCR)."
+msgstr "文字認識に失敗しました (Windows OCR)。"
+
+#: apps/desktop/src/main.rs:1956
+msgid "No text found on the screen."
+msgstr "画面に文字が見つかりませんでした。"
+
+#: apps/desktop/src/main.rs:1958
+msgid "Text read, but Windows didn't allow copying it to the clipboard."
+msgstr "文字は読み取れましたが、Windows がクリップボードへのコピーを許可しませんでした。"
+
+#: apps/desktop/src/main.rs:1960
+msgid "Nothing new on this screen; the copied text is unchanged."
+msgstr "この画面に新しい内容はありません。コピーしたテキストは変わっていません。"
+
+#: apps/desktop/src/main.rs:1963
+msgid "Copied to the PC: {n} new line(s) ({total} in total). Alt+R starts over."
+msgstr "PC にコピーしました: 新しい行 {n} 行（合計 {total} 行）。Alt+R で最初からやり直せます。"
+
+#: apps/desktop/src/main.rs:2124
+msgid "system"
+msgstr "システム"
+
+#: apps/desktop/src/main.rs:2132
+msgid "The phone listed no apps."
+msgstr "スマホにアプリが表示されませんでした。"
+
+#: apps/desktop/src/main.rs:2134
+msgid "No app matches."
+msgstr "一致するアプリがありません。"
+
+#: apps/desktop/src/main.rs:2136
+msgid "{_0} of {total} apps. Type to search."
+msgstr "{total} 個中 {_0} 個のアプリ。入力して検索できます。"
+
+#: apps/desktop/src/main.rs:2142
+msgid "{total} apps."
+msgstr "アプリ {total} 個。"
+
+#: apps/desktop/src/main.rs:2157
+msgid "Start mirroring an Android phone first."
+msgstr "先に Android スマホのミラーリングを開始してください。"
+
+#: apps/desktop/src/main.rs:2161
+msgid "Apps on {_0}"
+msgstr "{_0} のアプリ"
+
+#: apps/desktop/src/main.rs:2181
+msgid "Reading the phone's apps…"
+msgstr "スマホのアプリを読み取り中…"
+
+#: apps/desktop/src/main.rs:2202
+msgid "Could not read the apps: {e}"
+msgstr "アプリを読み取れませんでした: {e}"
+
+#: apps/desktop/src/main.rs:2228
+msgid "Opening {_0}…"
+msgstr "{_0} を開いています…"
+
+#: apps/desktop/src/main.rs:2230
+msgid "Phone control is not ready."
+msgstr "スマホの操作準備ができていません。"
+
+#: apps/desktop/src/main.rs:2246
+msgid "The app window did not open: {e}"
+msgstr "アプリのウィンドウが開きませんでした: {e}"
+
+#: apps/desktop/src/main.rs:2315
+msgid "1/3 · Reading the phone's Wi-Fi address…"
+msgstr "1/3 · スマホの Wi-Fi アドレスを読み取り中…"
+
+#: apps/desktop/src/main.rs:2322
+msgid "The phone is not on Wi-Fi"
+msgstr "スマホが Wi-Fi につながっていません"
+
+#: apps/desktop/src/main.rs:2323
+msgid "Couldn't read the Wi-Fi address"
+msgstr "Wi-Fi アドレスを読み取れませんでした"
+
+#: apps/desktop/src/main.rs:2325
+msgid "2/3 · Turning on ADB over Wi-Fi on the phone (its screen may flicker)…"
+msgstr "2/3 · スマホの Wi-Fi 経由 ADB をオンにしています（画面がちらつくことがあります）…"
+
+#: apps/desktop/src/main.rs:2329
+msgid "Couldn't turn on TCP/IP mode"
+msgstr "TCP/IP モードをオンにできませんでした"
+
+#: apps/desktop/src/main.rs:2332
+msgid "3/3 · Connecting over Wi-Fi…"
+msgstr "3/3 · Wi-Fi で接続中…"
+
+#: apps/desktop/src/main.rs:2340
+msgid "Connected over Wi-Fi. You can unplug the cable"
+msgstr "Wi-Fi で接続しました。ケーブルを抜けます"
+
+#: apps/desktop/src/main.rs:2350
+msgid "Couldn't connect over Wi-Fi. The PC and the phone must be on the same network"
+msgstr "Wi-Fi で接続できませんでした。PC とスマホが同じネットワークにある必要があります"
+
+#: apps/desktop/src/main.rs:2363
+msgid "Invalid address. Example: 192.168.1.20:37099"
+msgstr "アドレスが無効です。例: 192.168.1.20:37099"
+
+#: apps/desktop/src/main.rs:2367
+msgid "Connecting to the phone over Wi-Fi…"
+msgstr "Wi-Fi でスマホに接続中…"
+
+#: apps/desktop/src/main.rs:2369
+msgid "Connected over Wi-Fi"
+msgstr "Wi-Fi で接続しました"
+
+#: apps/desktop/src/main.rs:2383
+msgid "Enter the pairing address (IP:port) shown on the phone."
+msgstr "スマホに表示されているペア設定用アドレス (IP:ポート) を入力してください。"
+
+#: apps/desktop/src/main.rs:2388
+msgid "The pairing code has 6 digits."
+msgstr "ペア設定コードは6桁です。"
+
+#: apps/desktop/src/main.rs:2392
+msgid "Pairing with the phone…"
+msgstr "スマホとペア設定中…"
+
+#: apps/desktop/src/main.rs:2394
+msgid "Paired. Now enter the address on the Wireless debugging screen and press Connect"
+msgstr "ペア設定できました。次にワイヤレス デバッグ画面のアドレスを入力して「接続」を押してください"
+
+#: apps/desktop/src/main.rs:2395
+msgid "Pairing failed"
+msgstr "ペア設定に失敗しました"
+
+#: apps/desktop/src/main.rs:2443
+msgid "Waiting for the phone to scan…"
+msgstr "スマホのスキャンを待っています…"
+
+#: apps/desktop/src/main.rs:2491
+msgid "The QR code was not scanned within 2 minutes. Try again, or use a pairing code"
+msgstr "2分以内に QR コードがスキャンされませんでした。もう一度試すか、ペア設定コードを使ってください"
+
+#: apps/desktop/src/main.rs:2494
+msgid "Phone found, pairing…"
+msgstr "スマホが見つかりました。ペア設定中…"
+
+#: apps/desktop/src/main.rs:2500
+msgid "Paired, connecting…"
+msgstr "ペア設定完了、接続中…"
+
+#: apps/desktop/src/main.rs:2514
+msgid "Connect failed"
+msgstr "接続に失敗しました"
+
+#: apps/desktop/src/main.rs:2523
+msgid "Paired. Enter the address on the Wireless debugging screen and press Connect"
+msgstr "ペア設定できました。ワイヤレス デバッグ画面のアドレスを入力して「接続」を押してください"
+
+#: apps/desktop/src/main.rs:2575
+msgid "Test recording"
+msgstr "テスト録画"
+
+#: apps/desktop/src/main.rs:2603
+msgid "The picked device is not ready yet. Follow the steps below, then press Start."
+msgstr "選んだデバイスの準備がまだできていません。下の手順に従ってから「開始」を押してください。"
+
+#: apps/desktop/src/main.rs:2607
+msgid "Pick a device first. Plug in the phone with USB debugging on, or connect it over Wi-Fi."
+msgstr "先にデバイスを選んでください。USB デバッグをオンにしてスマホを接続するか、Wi-Fi でつないでください。"
+
+#: apps/desktop/src/main.rs:2617
+msgid "The scrcpy server file is missing ({e}). Reinstall ZenLink."
+msgstr "scrcpy のサーバーファイルがありません ({e})。ZenLink を再インストールしてください。"
+
+#: apps/desktop/src/main.rs:2710
+msgid "Needs attention"
+msgstr "注意が必要です"
+
+#: apps/desktop/src/main.rs:2854
+msgid "Pick a ready Android phone first."
+msgstr "先に準備のできた Android スマホを選んでください。"
+
+#: apps/desktop/src/main.rs:2894
+msgid "The window did not open: {e}"
+msgstr "ウィンドウが開きませんでした: {e}"
+
+#: apps/desktop/src/main.rs:2994
+msgid "Mirroring failed: {_0}. Reconnect the cable or tap Allow on the phone, then Start again."
+msgstr "ミラーリングに失敗しました: {_0}。ケーブルをつなぎ直すか、スマホで「許可」をタップしてから、もう一度「開始」を押してください。"
+
+#: apps/desktop/src/main.rs:2995
+msgid "Retrying… ({_0})"
+msgstr "再試行中… ({_0})"
+
+#: apps/desktop/src/main.rs:3022
+msgid "Turn on mouse control on this phone"
+msgstr ""
+
+#: apps/desktop/src/main.rs:3023
+msgid "Xiaomi, Redmi and POCO phones (MIUI / HyperOS) ignore the mouse and keyboard until you allow it: on the phone open Settings › Additional settings › Developer options and turn on \"USB debugging (Security settings)\" (it may ask for a Mi account and a SIM card). Then press Stop and Start again."
+msgstr ""
+
+#: apps/desktop/src/main.rs:3024
+msgid "Open Developer options on the phone"
+msgstr ""
+
+#: apps/desktop/src/main.rs:3045
+msgid "Ghost mode off"
+msgstr ""
+
+#: apps/desktop/src/main.rs:3059
+msgid "Ghost mode: clicks go to the app behind. Press {key} again (or click the tray icon) to leave."
+msgstr ""
+
+#: apps/desktop/src/main.rs:3076
+msgid "This shortcut needs Apple Driver mode while mirroring."
+msgstr "このショートカットはミラーリング中の Apple Driver モードが必要です。"
+
+#: apps/desktop/src/main.rs:3083
+msgid "Sound on the PC: off (Alt+M)"
+msgstr "PC のサウンド: オフ (Alt+M)"
+
+#: apps/desktop/src/main.rs:3085
+msgid "Sound on the PC: on (Alt+M)"
+msgstr "PC のサウンド: オン (Alt+M)"
+
+#: apps/desktop/src/main.rs:3102
+msgid "Rotation: {label}"
+msgstr "回転: {label}"
+
+#: apps/desktop/src/main.rs:3118
+msgid "Copy history cleared. The next Alt+C starts fresh."
+msgstr "コピー履歴を消去しました。次の Alt+C から新しく始まります。"
+
+#: apps/desktop/src/main.rs:3127
+msgid "Typing {n} characters on the device."
+msgstr "デバイスに {n} 文字を入力中。"
+
+#: apps/desktop/src/main.rs:3129
+msgid "The PC clipboard has no text."
+msgstr "PC のクリップボードにテキストがありません。"
+
+#: apps/desktop/src/main.rs:3167
+msgid "The chosen encoder failed; now using {using}. Your choice is kept."
+msgstr "選んだエンコーダが失敗しました。今は {using} を使用しています。あなたの選択は保持されています。"
+
+#: apps/desktop/src/main.rs:3178
+msgid "Open ZenLink"
+msgstr "ZenLink を開く"
+
+#: apps/desktop/src/main.rs:3283
+msgid "Checking for updates…"
+msgstr "アップデートを確認中…"
+
+#: apps/desktop/src/main.rs:3293
+msgid "ZenLink is up to date."
+msgstr "ZenLink は最新です。"
+
+#: apps/desktop/src/main.rs:3304
+msgid "Other edition: v{v}. Installs as a separate app; settings do not move over."
+msgstr "別の版: v{v}。別のアプリとしてインストールされ、設定は引き継がれません。"
+
+#: apps/desktop/src/main.rs:3306
+msgid "New version available: v{v}"
+msgstr "新しいバージョンがあります: v{v}"
+
+#: apps/desktop/src/main.rs:3313
+msgid "ZenLink v{v} is available. Open Settings › Updates."
+msgstr "ZenLink v{v} があります。設定 › アップデート を開いてください。"
+
+#: apps/desktop/src/main.rs:3321
+msgid "Could not check: {e}"
+msgstr "確認できませんでした: {e}"
+
+#: apps/desktop/src/main.rs:3357
+msgid "Failed: {e}"
+msgstr "失敗: {e}"
+
+#: apps/desktop/src/main.rs:3363
+msgid "Downloading {_0}…"
+msgstr "{_0} をダウンロード中…"
+
+#: apps/desktop/src/main.rs:3394
+msgid "The other edition's installer is open."
+msgstr "別の版のインストーラーが開いています。"
+
+#: apps/desktop/src/main.rs:3402
+msgid "Update failed: {e}"
+msgstr "アップデートに失敗しました: {e}"
+
+#: apps/desktop/src/main.rs:3571
+msgid "Pick an iPhone or iPad first. Plug it in with the cable and unlock it; it shows up in the list."
+msgstr "先に iPhone または iPad を選んでください。ケーブルで接続してロックを解除すると、一覧に表示されます。"
+
+#: apps/desktop/src/main.rs:3606
+msgid "{name} is not connected. Plug in the cable (or join the same Wi-Fi), unlock it, then press Start."
+msgstr "{name} が接続されていません。ケーブルを接続するか（または同じ Wi-Fi に参加し）、ロックを解除してから「開始」を押してください。"
+
+#: apps/desktop/src/main.rs:3628
+msgid "Waiting for administrator permission…"
+msgstr "管理者権限の許可を待っています…"
+
+#: apps/desktop/src/main.rs:3701
+msgid "Restarting the ZenLink service…"
+msgstr "ZenLink サービスを再起動中…"
+
+#: apps/desktop/src/main.rs:3719
+msgid "Restarting the connection…"
+msgstr "接続を再起動中…"
+
+#: apps/desktop/src/main.rs:3799
+msgid "Applying the Android settings…"
+msgstr "Android の設定を適用中…"
+
+#: apps/desktop/src/main.rs:3990
+msgid "Could not install adb. Check the internet connection and try again."
+msgstr "adb をインストールできませんでした。インターネット接続を確認して、もう一度お試しください。"
+
+#: apps/desktop/src/main.rs:4290
+msgid "The mode was not saved, try again."
+msgstr "モードが保存されませんでした。もう一度お試しください。"
+
+#: apps/desktop/src/main.rs:4311
+msgid "Switching to Wi-Fi…"
+msgstr "Wi-Fi に切り替え中…"
+
+#: apps/desktop/src/main.rs:4313
+msgid "Switching to the cable…"
+msgstr "ケーブル接続に切り替え中…"
+
+#: apps/desktop/src/main.rs:4327
+msgid "The connection could not be changed, try again."
+msgstr "接続を変更できませんでした。もう一度お試しください。"
+
+#: apps/desktop/src/main.rs:4417
+msgid "Setting up Wi-Fi…"
+msgstr "Wi-Fi をセットアップ中…"
+
+#: apps/desktop/src/main.rs:4419
+msgid "Checking drivers…"
+msgstr "ドライバを確認中…"
+
+#: apps/desktop/src/main.rs:4445
+msgid "Wi-Fi is ready. You can unplug the cable."
+msgstr "Wi-Fi の準備ができました。ケーブルを抜けます。"
+
+#: apps/desktop/src/main.rs:4447
+msgid "Wi-Fi could not be set up."
+msgstr "Wi-Fi をセットアップできませんでした。"
+
+#: apps/desktop/src/main.rs:4454
+msgid "Drivers checked."
+msgstr "ドライバを確認しました。"
+
+#: apps/desktop/src/main.rs:4554
+msgid "Nothing was copied on the phone."
+msgstr ""
+
+#: apps/desktop/src/main.rs:4556
+msgid "Copied from the phone. Paste it on the PC with Ctrl+V."
+msgstr ""
+
+#: apps/desktop/src/main.rs:4558
+msgid "Text copied on the phone, but Windows didn't allow it on the clipboard."
+msgstr ""
+
+#: apps/desktop/src/main.rs:4680
+msgid "Unlocking the device…"
+msgstr "デバイスのロックを解除中…"
+
+#: apps/desktop/src/main.rs:4990
+msgid "No picture from the iPhone/iPad yet. Unlock the device and press Restart. If it stays empty, send the logs (Settings › About › Open log folder)."
+msgstr "iPhone/iPad からまだ映像が来ていません。デバイスのロックを解除して「再起動」を押してください。それでも空のままなら、ログを送ってください（設定 › ZenLink について › ログフォルダを開く）。"
+
+#: apps/desktop/src/main.rs:5004
+msgid "sound"
+msgstr "サウンド"
