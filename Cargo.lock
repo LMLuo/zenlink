@@ -6506,6 +6506,7 @@ dependencies = [
  "plist",
  "tokio",
  "uuid",
+ "windows",
  "zenlink-core",
 ]
 

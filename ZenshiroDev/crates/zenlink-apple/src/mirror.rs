@@ -281,10 +281,14 @@ pub async fn stream(
                     break Ok(());
                 }
                 if frame_at.elapsed() > Duration::from_secs(3) {
-                    // Packets but no picture: say what arrives, once per stall.
+                    // Packets but no picture (e.g. Wi-Fi UDP loss): reset depacketizer and ask
+                    // for a fresh keyframe so the stream can recover.
                     frame_at = std::time::Instant::now();
+                    depack = HevcDepacketizer::new();
+                    au.clear();
+                    key.store(true, Relaxed);
                     log::info!(
-                        "screen: packets but no frame for 3 s (ssrc {:08x}, seq {}, pt {})",
+                        "screen: packets but no frame for 3 s (ssrc {:08x}, seq {}, pt {}); requesting keyframe",
                         pkt.ssrc,
                         pkt.sequence_number,
                         pkt.payload_type
