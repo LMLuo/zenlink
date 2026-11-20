@@ -2,6 +2,17 @@
 
 Full notes for each version are on the [Releases](https://github.com/zenvyzenshiro/zenlink/releases) page.
 
+## 2.5.17
+
+### Added
+- **Japanese (日本語)** in Settings › Language. Translation by yui1604. Texts added since 2.5.14 still show in English until the translation catches up.
+- **Developer Disk Image downloads by itself** (PR #11 by cahyata): iPhone / iPad control (Hybrid and Apple Driver mode) needs Apple's Developer Disk Image. When it is not on the PC, ZenLink now downloads it from doronz88/DeveloperDiskImage the first time the cable is connected, instead of stopping at "Developer Disk Image files not found".
+
+### Fixed
+- **Wrong iOS version after an iPhone / iPad update** (issue #12): ZenLink kept the iOS version it saw first, and that version picks which Developer Disk Image to use. It now reads the device again once each time ZenLink starts.
+- **"personalized mount: ImageMountFailed"** (issue #13): when a Developer Disk Image was already mounted (by an earlier run, Xcode or another tool), ZenLink mounted it again and the iPhone refused. ZenLink now checks first, as pymobiledevice3 does, and the log says which images are mounted.
+- **Wi-Fi picture freezing for good after packet loss** (PR #11 by cahyata): after 3 s with packets but no picture, ZenLink resets the decoder input and asks the iPhone for a new keyframe.
+
 ## 2.5.16
 
 ### Added

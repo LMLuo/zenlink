@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/⬇_Download-v2.5.16-FF4FA3?style=for-the-badge" alt="Download v2.5.16"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/⬇_Download-v2.5.17-FF4FA3?style=for-the-badge" alt="Download v2.5.17"></a>
   <a href="https://zenvyzenshiro.github.io/zenlink/"><img src="https://img.shields.io/badge/Website-zenlink-1f1f2e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
 </p>
 
@@ -77,7 +77,7 @@
 | **🌑 Stealth dim, wake & lock** | `Alt+D` dims the device to 0% while the picture stays bright; `Alt+U` wakes and types your passcode (DPAPI-encrypted); `Alt+L` locks. |
 | **🛠️ Safe driver manager** | Install / restore drivers only after you confirm, with UAC, a backup and automatic rollback. Never stacks a libusb0 filter on Apple's driver. |
 | **📥 Closing, tray & start with Windows** | The close button asks whether to keep ZenLink in the notification area (the session keeps running) or quit, with "Remember my choice"; Settings › Startup & closing changes it later. Start with Windows is off by default and follows Task Manager › Startup apps. Quitting also stops the `adb` server ZenLink started. One ZenLink at a time: opening it again brings the window back. |
-| **🌐 Languages as files** | Bahasa Indonesia and English built in, following your Windows language. Anyone can add a language with one `.po` file, no build needed ([how](#-add-a-language-tambah-bahasa)). Liquid Glass Dark by default; Light and System too. |
+| **🌐 Languages as files** | English, Bahasa Indonesia, Simplified Chinese and Japanese built in, following your Windows language. Anyone can add a language with one `.po` file, no build needed ([how](#-add-a-language-tambah-bahasa)). Liquid Glass Dark by default; Light and System too. |
 
 ---
 
