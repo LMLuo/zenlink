@@ -75,6 +75,25 @@ async fn developer_mode(provider: &UsbmuxdProvider) -> bool {
     }
 }
 
+/// Is a Personalized Developer Disk Image mounted? CopyDevices lists it even when LookupImage
+/// returns no signature (pymobiledevice3, `is_image_mounted`). Logs what is mounted.
+async fn personalized_mounted(mounter: &mut ImageMounter) -> bool {
+    match mounter.copy_devices().await {
+        Ok(list) => {
+            let types: Vec<&str> = list
+                .iter()
+                .filter_map(|v| v.as_dictionary()?.get("DiskImageType")?.as_string())
+                .collect();
+            log::info!("ddi: mounted images {types:?}");
+            types.contains(&"Personalized")
+        }
+        Err(e) => {
+            log::warn!("ddi: CopyDevices: {e:?}");
+            false
+        }
+    }
+}
+
 /// Devices on USB with whether this PC has their pair record (Trust done).
 pub async fn usb_devices() -> Result<Vec<(String, bool)>, String> {
     let mut mux = usbmux().await?;
@@ -279,7 +298,11 @@ impl Link {
                     .ok()
                     .and_then(|v| v.as_unsigned_integer())
                     .ok_or("UniqueChipID")?;
-                mounter
+                // pymobiledevice3 checks this first: MountImage on an image that is already
+                // mounted (an earlier run, Xcode, another tool) fails with ImageMountFailed (#13).
+                if personalized_mounted(&mut mounter).await {
+                    log::info!("ddi: a Personalized image is already mounted");
+                } else if let Err(e) = mounter
                     .mount_personalized(
                         provider,
                         f.image,
@@ -289,7 +312,16 @@ impl Link {
                         ecid,
                     )
                     .await
-                    .map_err(err("personalized mount"))?;
+                {
+                    // The device may have mounted it after all; ask on a fresh connection.
+                    let mut check = ImageMounter::connect(provider)
+                        .await
+                        .map_err(err("image mounter"))?;
+                    if !personalized_mounted(&mut check).await {
+                        return Err(format!("personalized mount: {e:?}"));
+                    }
+                    log::info!("ddi: mount reported {e:?}, but the image is mounted");
+                }
             }
         }
         // The display service appears in a fresh RSD handshake after the install.

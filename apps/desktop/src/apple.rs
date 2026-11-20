@@ -105,6 +105,9 @@ pub struct Engine {
     watching: AtomicBool,
     /// Wi-Fi devices whose names were asked for this run (one tunnel each, once).
     asked: Mutex<HashSet<String>>,
+    /// Devices whose info (name, iOS version) was read this run: a saved version goes stale
+    /// after an iOS update, and it picks the Developer Disk Image (#12).
+    fresh: Mutex<HashSet<String>>,
     /// Automatic Wi-Fi setup: when each cable device was last tried.
     wifi_tried: Mutex<HashMap<String, Instant>>,
 }
@@ -389,6 +392,7 @@ pub fn engine() -> &'static Arc<Engine> {
             frames: Mutex::new(None),
             watching: AtomicBool::new(false),
             asked: Mutex::new(HashSet::new()),
+            fresh: Mutex::new(HashSet::new()),
             wifi_tried: Mutex::new(HashMap::new()),
         })
     })
@@ -614,10 +618,11 @@ impl Engine {
         };
         let mut usb = Vec::new();
         for (udid, paired) in list {
-            if paired && !self.info.lock().unwrap().contains_key(&udid) {
+            if paired && !self.fresh.lock().unwrap().contains(&udid) {
                 if let Ok(Ok(i)) =
                     tokio::time::timeout(Duration::from_secs(10), link::info(&udid)).await
                 {
+                    self.fresh.lock().unwrap().insert(udid.clone());
                     let mut all = self.info.lock().unwrap();
                     all.insert(udid.clone(), i);
                     save_info(&all);
@@ -678,7 +683,7 @@ impl Engine {
         }
         let found = wifi::browse(&records, WIFI_WAIT).await.unwrap_or_default();
         for f in &found {
-            let known = self.info.lock().unwrap().contains_key(&f.udid);
+            let known = self.fresh.lock().unwrap().contains(&f.udid);
             if !known && self.asked.lock().unwrap().insert(f.udid.clone()) {
                 self.learn_info(f.udid.clone(), f.addr);
             }
@@ -724,6 +729,7 @@ impl Engine {
                 {
                     Ok(Ok(i)) if !i.product_type.is_empty() => {
                         log::info!("apple: learned {} ({}) over Wi-Fi", i.name, i.product_type);
+                        me.fresh.lock().unwrap().insert(udid.clone());
                         let mut all = me.info.lock().unwrap();
                         all.insert(udid, i);
                         save_info(&all);
@@ -955,13 +961,14 @@ impl Engine {
             })??,
             _ = stopped() => return Ok(()),
         };
-        if l.wifi && !self.info.lock().unwrap().contains_key(&dev.udid) {
+        if l.wifi && !self.fresh.lock().unwrap().contains(&dev.udid) {
             let info = tokio::time::timeout(Duration::from_secs(10), l.info()).await;
             match info.unwrap_or_else(|_| Err("timed out".into())) {
                 Ok(i) if !i.product_type.is_empty() => {
                     if !i.name.is_empty() {
                         sess.state.lock().unwrap().device = Some((i.name.clone(), true));
                     }
+                    self.fresh.lock().unwrap().insert(dev.udid.clone());
                     let mut all = self.info.lock().unwrap();
                     all.insert(dev.udid.clone(), i);
                     save_info(&all);
